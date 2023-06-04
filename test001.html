@@ -1,0 +1,830 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 10]><html class="no-js ie8 oldie" lang="en" prefix="og: http://ogp.me/ns/# og:book: http://ogp.me/ns/book# og:video: http://ogp.me/ns/video#"
+
+  
+    itemscope itemtype="http://schema.org/Book http://schema.org/ItemPage" data-offline-url="/"
+data-url="/library/view/learning-web-design/9781449337513/ch04.html"
+
+data-archive="9781449337513"
+data-publishers="O&#x27;Reilly Media, Inc."
+
+
+  data-htmlfile-name="ch04.html"
+  data-epub-title="Learning Web Design, 4th Edition"
+  
+
+
+data-federated-auth-enabled="true"
+
+data-env="production"
+data-debug="0" ><![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en" prefix="og: http://ogp.me/ns/# og:book: http://ogp.me/ns/book# og:video: http://ogp.me/ns/video#"
+
+  
+    itemscope itemtype="http://schema.org/Book http://schema.org/ItemPage" data-offline-url="/"
+data-url="/library/view/learning-web-design/9781449337513/ch04.html"
+
+data-archive="9781449337513"
+data-publishers="O&#x27;Reilly Media, Inc."
+
+
+  data-htmlfile-name="ch04.html"
+  data-epub-title="Learning Web Design, 4th Edition"
+  
+
+
+data-federated-auth-enabled="true"
+
+data-env="production"
+data-debug="0" ><!--<![endif]-->
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>4. Creating a Simple Page: (HTML Overview) - Learning Web Design, 4th Edition [Book]</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/library/view/static/CACHE/css/output.c00f27c3c9d4.css" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" type="text/css" href="https://cdn.oreillystatic.com/assets/css/2018_font_face.css" />
+    
+
+    <meta property="og:title" content="Learning Web Design, 4th Edition" />
+    <meta itemprop="isPartOf" content="/library/view/learning-web-design/9781449337513/" />
+    <meta itemprop="name" content="4. Creating a Simple Page: (HTML Overview)" />
+    
+    <meta property="og:url" itemprop="url" content="https://www.oreilly.com/library/view/learning-web-design/9781449337513/ch04.html" />
+    <meta property="og:site_name" content="O’Reilly Online Learning" />
+    <meta property="og:image" itemprop="thumbnailUrl" content="https://www.oreilly.com/library/cover/9781449337513/" />
+    
+    <meta property="og:image:secure_url" itemprop="thumbnailUrl" content="https://learning.oreilly.com/library/cover/9781449337513/360h/">
+    <meta property="og:description" itemprop="description" name="description" content="Chapter 4. Creating a Simple Page: (HTML Overview) IN THIS CHAPTER An introduction to elements and attributes A Web Page, Step by Step Step 2: Give the Document Structure Step …  - Selection from Learning Web Design, 4th Edition [Book]">
+    
+    <meta itemprop="inLanguage" content="en" />
+    
+    <meta itemprop="publisher" content="O&#x27;Reilly Media, Inc." />
+    
+    <meta property="og:type" content="article" />
+    <meta property="og:book:isbn" itemprop="isbn" content="9781449319274" />
+    
+    <meta property="og:book:author" itemprop="author" content="Jennifer Robbins" />
+    
+    
+    
+    
+    <meta property="og:image:width" content="400">
+    <meta property="og:image:height" content="400">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@OReillyMedia">
+
+<!-- Start Visual Website Optimizer Asynchronous Code -->
+<script type='text/javascript'>
+var _vwo_code=(function(){
+var account_id=291788,
+settings_tolerance=2000,
+library_tolerance=2500,
+use_existing_jquery=false,
+/* DO NOT EDIT BELOW THIS LINE */
+f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+</script>
+<!-- End Visual Website Optimizer Asynchronous Code -->
+
+    <link class="t-canonical-link" rel="canonical" href="https://www.oreilly.com/library/view/learning-web-design/9781449337513/ch04.html" />
+
+    <link rel="shortcut icon" href="//www.oreilly.com/favicon.ico" type="image/vnd.microsoft.icon" />
+    <link rel="apple-touch-icon" href="/library/view/static/images/apple-touch-icon.png" />
+    
+
+  
+    <style type="text/css" title="ibis-book">
+    @charset "utf-8";#sbo-rt-content html,#sbo-rt-content div,#sbo-rt-content div,#sbo-rt-content span,#sbo-rt-content applet,#sbo-rt-content object,#sbo-rt-content iframe,#sbo-rt-content h1,#sbo-rt-content h2,#sbo-rt-content h3,#sbo-rt-content h4,#sbo-rt-content h5,#sbo-rt-content h6,#sbo-rt-content p,#sbo-rt-content blockquote,#sbo-rt-content pre,#sbo-rt-content a,#sbo-rt-content abbr,#sbo-rt-content acronym,#sbo-rt-content address,#sbo-rt-content big,#sbo-rt-content cite,#sbo-rt-content code,#sbo-rt-content del,#sbo-rt-content dfn,#sbo-rt-content em,#sbo-rt-content font,#sbo-rt-content img,#sbo-rt-content ins,#sbo-rt-content kbd,#sbo-rt-content q,#sbo-rt-content s,#sbo-rt-content samp,#sbo-rt-content small,#sbo-rt-content strike,#sbo-rt-content strong,#sbo-rt-content sub,#sbo-rt-content sup,#sbo-rt-content tt,#sbo-rt-content var,#sbo-rt-content b,#sbo-rt-content u,#sbo-rt-content i,#sbo-rt-content center,#sbo-rt-content dl,#sbo-rt-content dt,#sbo-rt-content dd,#sbo-rt-content ol,#sbo-rt-content ul,#sbo-rt-content li,#sbo-rt-content fieldset,#sbo-rt-content form,#sbo-rt-content label,#sbo-rt-content legend,#sbo-rt-content table,#sbo-rt-content caption,#sbo-rt-content tdiv,#sbo-rt-content tfoot,#sbo-rt-content thead,#sbo-rt-content tr,#sbo-rt-content th,#sbo-rt-content td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}@page{margin:5px !important}#sbo-rt-content p{margin:8px 0 0;line-height:125%;text-align:left}#sbo-rt-content em{font-style:italic;font-family:inherit}#sbo-rt-content em.replaceable{font-style:italic}#sbo-rt-content em strong,#sbo-rt-content strong em{font-weight:bold;font-style:italic;font-family:inherit}#sbo-rt-content strong.userinput{font-weight:bold;font-style:normal}#sbo-rt-content span.bolditalic{font-weight:bold;font-style:italic}#sbo-rt-content strong,#sbo-rt-content span.bold{font-weight:bold}#sbo-rt-content a.ulink,#sbo-rt-content a.xref,#sbo-rt-content a.email,#sbo-rt-content a.link{text-decoration:none;color:#8e0012}#sbo-rt-content sup{font-size:x-small;vertical-align:super}#sbo-rt-content sub{font-size:smaller;vertical-align:sub}#sbo-rt-content span.lineannotation{font-style:italic;color:#A62A2A;font-family:serif,"DejaVuSerif"}#sbo-rt-content span.underline{text-decoration:underline}#sbo-rt-content span.strikethrough{text-decoration:line-through}#sbo-rt-content span.smallcaps{font-variant:small-caps}#sbo-rt-content span.cursor{background:#000;color:#FFF}#sbo-rt-content span.smaller{font-size:75%}#sbo-rt-content .boxedtext,#sbo-rt-content .keycap{border-style:solid;border-width:1px;border-color:#000;padding:1px}#sbo-rt-content span.gray50{color:#7F7F7F;}#sbo-rt-content .gray-background,#sbo-rt-content .reverse-video{background:#2E2E2E;color:#FFF}#sbo-rt-content .light-gray-background{background:#A0A0A0}#sbo-rt-content .preserve-whitespace{white-space:pre-wrap}#sbo-rt-content h1,#sbo-rt-content div.toc-title,#sbo-rt-content h2,#sbo-rt-content h3,#sbo-rt-content h4,#sbo-rt-content h5{-webkit-hyphens:none;hyphens:none;adobe-hyphenate:none;font-weight:bold;text-align:left;page-break-after:avoid !important;font-family:sans-serif,"DejaVuSans"}#sbo-rt-content h1,#sbo-rt-content div.toc-title{font-size:1.5em;margin-top:20px !important}#sbo-rt-content h2{font-size:1.3em;color:#8e0012;margin:40px 0 8px 0}#sbo-rt-content h3{font-size:1.1em;margin:30px 0 8px 0 !important}#sbo-rt-content h4{font-size:1em;color:#555;margin:20px 0 8px 0 !important}#sbo-rt-content h5{font-size:1em;font-weight:normal;font-style:italic;margin:15px 0 6px 0 !important}#sbo-rt-content section.chapter div.titlepage,#sbo-rt-content section.appendix div.titlepage,#sbo-rt-content section.preface div.titlepage{page-break-inside:avoid;page-break-after:avoid}#sbo-rt-content section.chapter>div.titlepage,#sbo-rt-content section.preface>div.titlepage,#sbo-rt-content section.appendix>div.titlepage{margin-bottom:50px}#sbo-rt-content section.chapter>div.titlepage h2.title,#sbo-rt-content section.preface>div.titlepage h2.title,#sbo-rt-content section.appendix>div.titlepage h2.title{font-size:2em;line-height:1;margin-bottom:15px;color:#000;padding-bottom:10px;border-bottom:1px solid #000}#sbo-rt-content div.toc-title{margin-bottom:30px !important}#sbo-rt-content div.part h1{font-size:2em;text-align:center;margin-top:0 !important;padding:50px 0 20px 0;border-bottom:1px solid #000}#sbo-rt-content img{max-width:95%;margin:0 auto;padding:0}#sbo-rt-content div.figure{background-color:transparent;text-align:center;-webkit-border-radius:5px;border-radius:5px;border:1px solid #DCDCDC;padding:15px 5px 15px 5px !important;margin:30px 0 30px 0 !important;max-height:100%;page-break-inside:avoid}#sbo-rt-content div.figure-title,#sbo-rt-content div.informalfigure div.caption{font-size:90%;text-align:center;font-weight:normal;font-style:italic;font-family:serif,"DejaVuSerif";color:#000;padding:5px !important;page-break-before:avoid;page-break-after:avoid}#sbo-rt-content div.informalfigure{text-align:center;padding:5px 0 !important}#sbo-rt-content div.sidebar{margin:30px 0 20px 0 !important;-webkit-border-radius:5px;border-radius:5px;border:1px solid #DCDCDC;background-color:#F7F7F7;font-size:90%;padding:15px !important;page-break-inside:avoid}#sbo-rt-content div.sidebar-title{font-weight:bold;font-size:1em;font-family:sans-serif,"DejaVuSans";text-transform:uppercase;letter-spacing:1px;text-align:center;margin:4px 0 6px 0 !important;page-break-inside:avoid}#sbo-rt-content div.sidebar div.figure p.title,#sbo-rt-content div.sidebar div.informalfigure div.caption{font-size:90%;text-align:center;font-weight:normal;font-style:italic;font-family:serif,"DejaVuSerif";color:#000;padding:5px !important;page-break-before:avoid;page-break-after:avoid}#sbo-rt-content div.sidebar ol{margin-left:15px}#sbo-rt-content div.sidebar div.tip,#sbo-rt-content div.sidebar div.note,#sbo-rt-content div.sidebar div.warning,#sbo-rt-content div.sidebar div.caution,#sbo-rt-content div.sidebar div.important{margin:20px auto 20px auto !important;font-size:90%;width:85%}#sbo-rt-content div.sidebar div.figure{border:none}#sbo-rt-content pre{white-space:pre-wrap;font-family:"Ubuntu Mono",monospace;margin:25px 0 25px 20px;font-size:85%;display:block;-webkit-hyphens:none;hyphens:none;adobe-hyphenate:none}#sbo-rt-content div.note pre.programlisting,#sbo-rt-content div.tip pre.programlisting,#sbo-rt-content div.warning pre.programlisting,#sbo-rt-content div.caution pre.programlisting,#sbo-rt-content div.important pre.programlisting{margin-bottom:0}#sbo-rt-content code{font-family:"Ubuntu Mono",monospace}#sbo-rt-content code strong em,#sbo-rt-content code em strong,#sbo-rt-content pre em strong,#sbo-rt-content pre strong em,#sbo-rt-content strong code em code,#sbo-rt-content em code strong code,#sbo-rt-content span.bolditalic code{font-weight:bold;font-style:italic;font-family:"Ubuntu Mono BoldItal",monospace}#sbo-rt-content code em,#sbo-rt-content em code,#sbo-rt-content pre em,#sbo-rt-content em.replaceable{font-family:"Ubuntu Mono Ital",monospace;font-style:italic}#sbo-rt-content code strong,#sbo-rt-content strong code,#sbo-rt-content pre strong,#sbo-rt-content strong.userinput{font-family:"Ubuntu Mono Bold",monospace;font-weight:bold}#sbo-rt-content div.example{margin:10px 0 15px 0 !important}#sbo-rt-content div.example-title{font-style:italic;font-weight:normal;font-family:serif,"DejaVuSerif";margin:10px 0 5px 0 !important;border-bottom:1px solid #000}#sbo-rt-content li pre.example{padding:10px 0 !important}#sbo-rt-content div.example-contents pre.programlisting,#sbo-rt-content div.example-contents pre.screen{margin:0}#sbo-rt-content span.gray{color:#4C4C4C}#sbo-rt-content div.book div.titlepage h1.title{font-size:3em;font-family:sans-serif,"DejaVuSans";font-weight:bold;margin:50px 0 10px 0 !important;line-height:1;text-align:center}#sbo-rt-content div.book div.titlepage h2.subtitle{text-align:center;color:#000;margin:0 !important;font-style:italic;font-family:serif;font-size:1.5em}#sbo-rt-content div.book div.titlepage div.author h3{font-size:2em;font-family:sans-serif,"DejaVuSans";font-weight:bold;color:#8e0012;margin:50px 0 !important;text-align:center}#sbo-rt-content div.book div.titlepage div.publishername{margin-top:60%;margin-bottom:20px;text-align:center;font-size:1.25em}#sbo-rt-content div.book div.titlepage div.locations p{margin:0;text-align:center}#sbo-rt-content div.book div.titlepage div.locations p.cities{font-size:80%;text-align:center;margin-top:5px}#sbo-rt-content section.preface[title="Dedication"]>div.titlepage h2.title{text-align:center;text-transform:uppercase;font-size:1.5em;margin-top:50px;margin-bottom:50px}#sbo-rt-content section.preface[title="Dedication"] p{font-style:italic;text-align:center}#sbo-rt-content div.colophon h1.title{font-size:1.3em;margin:0 !important;font-family:serif,"DejaVuSerif";font-weight:normal}#sbo-rt-content div.colophon h2.subtitle{margin:0 !important;color:#000;font-family:serif,"DejaVuSerif";font-size:1em;font-weight:normal}#sbo-rt-content div.colophon div.author h3.author{font-size:1.1em;font-family:serif,"DejaVuSerif";margin:10px 0 0 !important;font-weight:normal}#sbo-rt-content div.colophon div.editor h4,#sbo-rt-content div.colophon div.editor h3.editor{color:#000;font-size:.8em;margin:15px 0 0 !important;font-family:serif,"DejaVuSerif";font-weight:normal}#sbo-rt-content div.colophon div.editor h3.editor{font-size:.8em;margin:0 !important;font-family:serif,"DejaVuSerif";font-weight:normal}#sbo-rt-content div.colophon div.publisher{margin-top:10px}#sbo-rt-content div.colophon div.publisher p,#sbo-rt-content div.colophon div.publisher span.publishername{margin:0;font-size:.8em}#sbo-rt-content div.legalnotice p,#sbo-rt-content div.timestamp p{font-size:.8em}#sbo-rt-content div.timestamp p{margin-top:10pt}#sbo-rt-content div.colophon[title="About the Author"] h1.title,#sbo-rt-content div.colophon[title="Colophon"] h1.title{font-size:1.5em;margin:0 !important;font-family:sans-serif,"DejaVuSans";font-weight:bold}#sbo-rt-content section.chapter div.titlepage div.author{margin:10px 0 10px 0}#sbo-rt-content section.chapter div.titlepage div.author div.affiliation{font-style:italic}#sbo-rt-content div.attribution{margin:5px 0 0 50px !important}#sbo-rt-content h3.author span.orgname{display:none}#sbo-rt-content div.epigraph{margin:10px 0 10px 20px !important;page-break-inside:avoid;font-size:90%}#sbo-rt-content div.epigraph p{font-style:italic}#sbo-rt-content blockquote,#sbo-rt-content div.blockquote{margin:10px !important;page-break-inside:avoid;font-size:95%}#sbo-rt-content blockquote p,#sbo-rt-content div.blockquote p{font-family:serif,"DejaVuSerif";font-style:italic}#sbo-rt-content blockquote div.attribution{margin:5px 0 0 30px !important;text-align:right;width:80%}#sbo-rt-content blockquote div.attribution p{font-style:normal}#sbo-rt-content p.right{text-align:right;margin:0}#sbo-rt-content div.footnote{font-size:90%}#sbo-rt-content div.refnamediv h2,#sbo-rt-content div.refnamediv h3,#sbo-rt-content div.refsynopsisdiv h2{font-size:1.1em;color:#000;margin-top:15px !important;margin-bottom:0 !important}#sbo-rt-content div.refentry div.refsect1 h2{font-size:1.1em;color:#000;margin-top:15px !important;margin-bottom:0 !important}#sbo-rt-content div.refsect2 h3{font-size:1em;color:#000;margin-top:10px !important;margin-bottom:0 !important}#sbo-rt-content div.refnamediv p{margin-left:15px !important}#sbo-rt-content dt{padding-top:10px !important;padding-bottom:0 !important}#sbo-rt-content dt span.term{font-weight:bold;font-style:italic}#sbo-rt-content dt span.term code.literal{font-style:normal;font-weight:normal}#sbo-rt-content dt span.term em code.literal{font-style:italic}#sbo-rt-content dd{margin-left:1.5em !important}#sbo-rt-content dd,#sbo-rt-content li{text-align:left}#sbo-rt-content ol{list-style-type:decimal;margin-top:8px !important;margin-bottom:8px !important;margin-left:20px !important;padding-left:25px !important}#sbo-rt-content ol[type="A"]{list-style-type:upper-alpha}#sbo-rt-content ol[type="I"]{list-style-type:upper-roman}#sbo-rt-content ol[type="a"]{list-style-type:lower-alpha}#sbo-rt-content ol[type="i"]{list-style-type:lower-roman}#sbo-rt-content ol ol{list-style-type:lower-alpha}#sbo-rt-content ol ol ol{list-style-type:lower-roman}#sbo-rt-content ul{list-style-type:square;margin-top:8px !important;margin-bottom:8px !important;margin-left:5px !important;padding-left:20px !important}#sbo-rt-content ul ul{list-style-type:none;padding-left:0 !important;margin-left:0 !important}#sbo-rt-content ol li,#sbo-rt-content ul li,#sbo-rt-content dd{margin-bottom:1em}#sbo-rt-content ul ul li p:before{content:"— "}#sbo-rt-content ul ul ul li p:before{content:""}#sbo-rt-content ul ul ul{list-style-type:square;margin-left:20px !important;padding-left:30px !important}#sbo-rt-content div.orderedlistalpha{list-style-type:upper-alpha}#sbo-rt-content table.simplelist{margin-left:20px !important;margin-bottom:10px}#sbo-rt-content table.simplelist td{border:none;font-size:90%}#sbo-rt-content table.simplelist tr{border-bottom:none}#sbo-rt-content table.simplelist tr:nth-of-type(even){background-color:transparent}#sbo-rt-content div.calloutlist p:first-child{margin-top:-25px !important}#sbo-rt-content div.calloutlist dd{padding-left:0;margin-top:-25px}#sbo-rt-content div.calloutlist img{padding:0}#sbo-rt-content a.co img{padding:0}#sbo-rt-content div.calloutlist>dl>dd>div.orderedlist{margin-top:25pt}#sbo-rt-content div.calloutlist>dl>dd>div.orderedlist>ol.orderedlist>li{margin-bottom:25pt}#sbo-rt-content div.toc ol{margin-top:8px !important;margin-bottom:8px !important;margin-left:0 !important;padding-left:0 !important}#sbo-rt-content div.toc ol ol{margin-left:30px !important;padding-left:0 !important}#sbo-rt-content div.toc ol li{list-style-type:none}#sbo-rt-content div.toc a{color:#8e0012}#sbo-rt-content div.toc ol a{font-size:1em;font-weight:bold}#sbo-rt-content div.toc ol>li>ol a{font-weight:bold;font-size:1em}#sbo-rt-content div.toc ol>li>ol>li>ol a{text-decoration:none;font-weight:normal;font-size:1em}#sbo-rt-content div.tip,#sbo-rt-content div.note,#sbo-rt-content div.warning,#sbo-rt-content div.caution,#sbo-rt-content div.important{margin:30px !important;-webkit-border-radius:5px;border-radius:5px;font-size:90%;padding:10px 8px 20px 8px !important;page-break-inside:avoid}#sbo-rt-content div.tip,#sbo-rt-content div.note,#sbo-rt-content div.important{border:1px solid #BEBEBE;background-color:transparent}#sbo-rt-content div.warning,#sbo-rt-content div.caution{border:1px solid #BC8F8F}#sbo-rt-content div.tip h3,#sbo-rt-content div.note h3,#sbo-rt-content div.warning h3,#sbo-rt-content div.caution h3,#sbo-rt-content div.important h3{font:bold 90%;font-family:sans-serif,"DejaVuSans";text-transform:uppercase;letter-spacing:1px;text-align:center;margin:4px 0 6px !important}#sbo-rt-content div.tip h3,#sbo-rt-content div.note h3,#sbo-rt-content div.important h3{color:#737373}#sbo-rt-content div.warning h3,#sbo-rt-content div.caution h3{color:#C67171}#sbo-rt-content div.sect1[title="Safari® Books Online"] div.note{background-color:transparent;margin:8px 0 0 !important;border:0 solid #BEBEBE;-webkit-border-radius:0;border-radius:0;font-size:100%;padding:0 !important;page-break-inside:avoid}#sbo-rt-content div.sect1[title="Safari® Books Online"] div.note h3{display:none}#sbo-rt-content div.table,#sbo-rt-content table{margin:15px auto 30px auto !important;max-width:95%;border-collapse:collapse;border-spacing:0}#sbo-rt-content div.table,#sbo-rt-content div.informaltable{page-break-inside:avoid}#sbo-rt-content tr{border-bottom:1px solid #c3c3c3}#sbo-rt-content thead td{border-bottom:#9d9d9d 1px solid !important;border-top:#9d9d9d 1px solid !important}#sbo-rt-content tr:nth-of-type(even){background-color:#f1f6fc}#sbo-rt-content thead{font-family:sans-serif,"DejaVuSans";color:#000;font-weight:bold}#sbo-rt-content td{padding:.3em;text-align:left;vertical-align:baseline;font-size:80%}#sbo-rt-content div.informaltable table{margin:10px auto !important}#sbo-rt-content div.informaltable table tr{border-bottom:none}#sbo-rt-content div.informaltable table tr:nth-of-type(even){background-color:transparent}#sbo-rt-content div.informaltable td,#sbo-rt-content div.informaltable th{border:#9d9d9d 1px solid}#sbo-rt-content div.table-title{font-weight:normal;font-style:italic;font-family:serif,"DejaVuSerif";margin:20px 0 0 0 !important;text-align:center;padding:0}#sbo-rt-content table code{font-size:smaller}#sbo-rt-content div.equation{margin:10px 0 15px 0 !important}#sbo-rt-content div.equation-title{font-style:italic;font-weight:normal;font-family:serif,"DejaVuSerif";margin:20px 0 10px 0 !important;page-break-after:avoid}#sbo-rt-content div.equation-contents{margin-left:20px}#sbo-rt-content span.inlinemediaobject{height:.85em;display:inline-block;margin-bottom:.2em}#sbo-rt-content span.inlinemediaobject img{margin:0;height:.85em}#sbo-rt-content div.informalequation{margin:20px 0 20px 20px;width:75%}#sbo-rt-content div.informalequation img{width:75%}#sbo-rt-content div.index{font-weight:bold}#sbo-rt-content div.index dt{line-height:140%}#sbo-rt-content div.index a.indexterm{color:#8e0012}#sbo-rt-content code.boolean,#sbo-rt-content .navy{color:rgb(0,0,128);}#sbo-rt-content code.character,#sbo-rt-content .olive{color:rgb(128,128,0);}#sbo-rt-content code.comment,#sbo-rt-content .blue{color:rgb(0,0,255);}#sbo-rt-content code.conditional,#sbo-rt-content .limegreen{color:rgb(50,205,50);}#sbo-rt-content code.constant,#sbo-rt-content .darkorange{color:rgb(255,140,0);}#sbo-rt-content code.debug,#sbo-rt-content .darkred{color:rgb(139,0,0);}#sbo-rt-content code.define,#sbo-rt-content .darkgoldenrod,#sbo-rt-content .gold{color:rgb(184,134,11);}#sbo-rt-content code.delimiter,#sbo-rt-content .dimgray{color:rgb(105,105,105);}#sbo-rt-content code.error,#sbo-rt-content .red{color:rgb(255,0,0);}#sbo-rt-content code.exception,#sbo-rt-content .salmon{color:rgb(250,128,11);}#sbo-rt-content code.float,#sbo-rt-content .steelblue{color:rgb(70,130,180);}#sbo-rt-content pre code.function,#sbo-rt-content .green{color:rgb(0,128,0);}#sbo-rt-content code.identifier,#sbo-rt-content .royalblue{color:rgb(65,105,225);}#sbo-rt-content code.ignore,#sbo-rt-content .gray{color:rgb(128,128,128);}#sbo-rt-content code.include,#sbo-rt-content .purple{color:rgb(128,0,128);}#sbo-rt-content code.keyword,#sbo-rt-content .sienna{color:rgb(160,82,45);}#sbo-rt-content code.label,#sbo-rt-content .deeppink{color:rgb(255,20,147);}#sbo-rt-content code.macro,#sbo-rt-content .orangered{color:rgb(255,69,0);}#sbo-rt-content code.number,#sbo-rt-content .brown{color:rgb(165,42,42);}#sbo-rt-content code.operator,#sbo-rt-content .black{color:#000;}#sbo-rt-content code.preCondit,#sbo-rt-content .teal{color:rgb(0,128,128);}#sbo-rt-content code.preProc,#sbo-rt-content .fuschia{color:rgb(255,0,255);}#sbo-rt-content code.repeat,#sbo-rt-content .indigo{color:rgb(75,0,130);}#sbo-rt-content code.special,#sbo-rt-content .saddlebrown{color:rgb(139,69,19);}#sbo-rt-content code.specialchar,#sbo-rt-content .magenta{color:rgb(255,0,255);}#sbo-rt-content code.specialcomment,#sbo-rt-content .seagreen{color:rgb(46,139,87);}#sbo-rt-content code.statement,#sbo-rt-content .forestgreen{color:rgb(34,139,34);}#sbo-rt-content code.storageclass,#sbo-rt-content .plum{color:rgb(221,160,221);}#sbo-rt-content code.string,#sbo-rt-content .darkred{color:rgb(139,0,0);}#sbo-rt-content code.structure,#sbo-rt-content .chocolate{color:rgb(210,106,30);}#sbo-rt-content code.tag,#sbo-rt-content .darkcyan{color:rgb(0,139,139);}#sbo-rt-content code.todo,#sbo-rt-content .black{color:#000;}#sbo-rt-content code.type,#sbo-rt-content .mediumslateblue{color:rgb(123,104,238);}#sbo-rt-content code.typedef,#sbo-rt-content .darkgreen{color:rgb(0,100,0);}#sbo-rt-content code.underlined{text-decoration:underline;}#sbo-rt-content pre code.hll{background-color:#ffc}#sbo-rt-content pre code.c{color:#09F;font-style:italic}#sbo-rt-content pre code.err{color:#A00}#sbo-rt-content pre code.k{color:#069;font-weight:bold}#sbo-rt-content pre code.o{color:#555}#sbo-rt-content pre code.cm{color:#35586C;font-style:italic}#sbo-rt-content pre code.cp{color:#099}#sbo-rt-content pre code.c1{color:#35586C;font-style:italic}#sbo-rt-content pre code.cs{color:#35586C;font-weight:bold;font-style:italic}#sbo-rt-content pre code.gd{background-color:#FCC}#sbo-rt-content pre code.ge{font-style:italic}#sbo-rt-content pre code.gr{color:#F00}#sbo-rt-content pre code.gh{color:#030;font-weight:bold}#sbo-rt-content pre code.gi{background-color:#CFC}#sbo-rt-content pre code.go{color:#000}#sbo-rt-content pre code.gp{color:#009;font-weight:bold}#sbo-rt-content pre code.gs{font-weight:bold}#sbo-rt-content pre code.gu{color:#030;font-weight:bold}#sbo-rt-content pre code.gt{color:#9C6}#sbo-rt-content pre code.kc{color:#069;font-weight:bold}#sbo-rt-content pre code.kd{color:#069;font-weight:bold}#sbo-rt-content pre code.kn{color:#069;font-weight:bold}#sbo-rt-content pre code.kp{color:#069}#sbo-rt-content pre code.kr{color:#069;font-weight:bold}#sbo-rt-content pre code.kt{color:#078;font-weight:bold}#sbo-rt-content pre code.m{color:#F60}#sbo-rt-content pre code.s{color:#C30}#sbo-rt-content pre code.na{color:#309}#sbo-rt-content pre code.nb{color:#366}#sbo-rt-content pre code.nc{color:#0A8;font-weight:bold}#sbo-rt-content pre code.no{color:#360}#sbo-rt-content pre code.nd{color:#99F}#sbo-rt-content pre code.ni{color:#999;font-weight:bold}#sbo-rt-content pre code.ne{color:#C00;font-weight:bold}#sbo-rt-content pre code.nf{color:#C0F}#sbo-rt-content pre code.nl{color:#99F}#sbo-rt-content pre code.nn{color:#0CF;font-weight:bold}#sbo-rt-content pre code.nt{color:#309;font-weight:bold}#sbo-rt-content pre code.nv{color:#033}#sbo-rt-content pre code.ow{color:#000;font-weight:bold}#sbo-rt-content pre code.w{color:#bbb}#sbo-rt-content pre code.mf{color:#F60}#sbo-rt-content pre code.mh{color:#F60}#sbo-rt-content pre code.mi{color:#F60}#sbo-rt-content pre code.mo{color:#F60}#sbo-rt-content pre code.sb{color:#C30}#sbo-rt-content pre code.sc{color:#C30}#sbo-rt-content pre code.sd{color:#C30;font-style:italic}#sbo-rt-content pre code.s2{color:#C30}#sbo-rt-content pre code.se{color:#C30;font-weight:bold}#sbo-rt-content pre code.sh{color:#C30}#sbo-rt-content pre code.si{color:#A00}#sbo-rt-content pre code.sx{color:#C30}#sbo-rt-content pre code.sr{color:#3AA}#sbo-rt-content pre code.s1{color:#C30}#sbo-rt-content pre code.ss{color:#A60}#sbo-rt-content pre code.bp{color:#366}#sbo-rt-content pre code.vc{color:#033}#sbo-rt-content pre code.vg{color:#033}#sbo-rt-content pre code.vi{color:#033}#sbo-rt-content pre code.il{color:#F60}#sbo-rt-content pre code.g{color:#050}#sbo-rt-content pre code.l{color:#C60}#sbo-rt-content pre code.l{color:#F90}#sbo-rt-content pre code.n{color:#008}#sbo-rt-content pre code.nx{color:#008}#sbo-rt-content pre code.py{color:#96F}#sbo-rt-content pre code.p{color:#000}#sbo-rt-content pre code.x{color:#F06}#sbo-rt-content div.blockquote_sampler_toc{width:95%;margin:5px 5px 5px 10px !important}#sbo-rt-content div{font-family:serif,"DejaVuSerif";text-align:left}#sbo-rt-content h1.title{color:#FF6103}#sbo-rt-content h2.title{color:#00B2EE}#sbo-rt-content h3.title,#sbo-rt-content h4.title{color:#CD0000}#sbo-rt-content .gray-background{background-color:#FF6103;padding:1px 5px 1px 5px;border-radius:3px;-webkit-border-radius:3px}#sbo-rt-content div.sidebar{background-color:#FFFAEE;border:2px solid #FF6103}#sbo-rt-content div.sidebar p.title{color:#FF6103}#sbo-rt-content div.sidebar div.figure p.title{color:#000}#sbo-rt-content div.figure{border:1px solid #000}#sbo-rt-content div.tip,#sbo-rt-content div.note,#sbo-rt-content div.caution,#sbo-rt-content div.important{background-color:#F0F8FF;border:1px solid #00B2EE}#sbo-rt-content div.tip h3,#sbo-rt-content div.note h3,#sbo-rt-content div.caution h3,#sbo-rt-content div.important h3{text-align:left;border-bottom:1px solid #00B2EE;color:#00B2EE}#sbo-rt-content div.warning{background-color:#FFFAFA;border:1px solid #CD0000}#sbo-rt-content div.warning h3{text-align:left;border-bottom:1px solid #CD0000;color:#CD0000}#sbo-rt-content div.book div.titlepage h1.title{color:#397D02}#sbo-rt-content div.book div.titlepage h2.subtitle{color:#397D02}#sbo-rt-content pre span.strong{color:#FF6103}
+    </style>
+  
+
+
+
+
+</head>
+<body class="js-preview-content  ">
+
+
+<div class="skipToMain" id="skipToMain"><a href="#maincontent"><span class="skipToMain-text">Skip to main content</span></a></div>
+<header role="banner" class="global">
+  <div class="global-nav">
+    <div class="content">
+      <nav role="navigation" aria-label="site sections">
+        <a href="https://www.oreilly.com" class="logo" title="home page" aria-current="page"><img src="https://cdn.oreillystatic.com/images/sitewide-headers/oreilly_logo_mark_red.svg" onerror="this.src='https://cdn.oreillystatic.com/images/sitewide-headers/oreilly_logo_mark_red_@2x.png'; this.onerror=null;" alt="O'Reilly home"></a>
+
+        <button id="mobileNavButton" class="mobileNavButton mobileNavButton--collapse mobileNavButton--3dx" type="button" aria-expanded="false" aria-controls="menuList">
+          <span class="mobileNavButton-box">
+            <span class="mobileNavButton-inner"></span>
+          </span>
+        </button>
+
+
+        <ul id="menuList" class="menuList mobileHidden ">
+          <li class="menuList-itemsP1">
+            <ul>
+              
+  <li class="menuList-item menuList-signIn"><a id="chapter-sign-in" class="t-sign-in" href="/member/login/?next=/library/view/learning-web-design/9781449337513/ch04.html">Sign In</a></li>
+
+
+              <li class="menuList-item menuList-tryNow"><a class="menuList-cta" href="https://learning.oreilly.com/p/register/">Try Now</a></li>
+            </ul>
+          </li>
+          <li class="menuList-itemsP2">
+            <ul>
+              <li class="menuList-item menuList-itemWithSub"><a href="https://www.oreilly.com/online-learning/teams.html">Teams</a>
+                <ul class="menuList-subList menuList-itemWithSub">
+                  <li class="menuList-subItem menuList-extra"><a href="https://www.oreilly.com/online-learning/business.html">For business</a></li>
+                  <li class="menuList-subItem"><a href="https://www.oreilly.com/online-learning/government.html">For government</a></li>
+                  <li class="menuList-subItem"><a href="https://www.oreilly.com/online-learning/academic.html">For higher ed</a></li>
+                </ul>
+              </li>
+              <li class="menuList-item"><a href="https://www.oreilly.com/online-learning/individuals.html">Individuals</a></li>
+              <li class="menuList-item menuList-itemWithSub"><a href="https://www.oreilly.com/online-learning/features.html">Features</a>
+                <ul class="menuList-subList">
+                  <li class="menuList-subItem menuList-extra"><a href="https://www.oreilly.com/online-learning/features.html">All features</a></li>
+                  <li class="menuList-subItem"><a href="https://www.oreilly.com/online-learning/courses.html">Courses</a></li>
+                  <li class="menuList-subItem"><a href="https://www.oreilly.com/online-learning/feature-certification.html">Certifications</a></li>
+                  <li class="menuList-subItem"><a href="https://www.oreilly.com/online-learning/intro-interactive-learning.html">Interactive learning</a></li>
+                  <li class="menuList-subItem"><a href="https://www.oreilly.com/online-learning/live-events.html">Live events</a></li>
+                  <li class="menuList-subItem"><a href="https://www.oreilly.com/online-learning/feature-answers.html">Answers</a></li>
+                  <li class="menuList-subItem"><a href="https://www.oreilly.com/online-learning/insights-dashboard.html">Insights reporting</a></li>
+                </ul>
+              </li>
+              <li class="menuList-item"><a href="https://www.oreilly.com/radar/">Blog</a></li>
+              <li class="menuList-item" id="nav-forMarketers"><a href="https://www.oreilly.com/content-marketing-solutions.html">Content sponsorship</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+
+  <div class="global-search">
+    <div id="globalSearchContent" class="content">
+      <form id="js-search-form" class="t-navigation-form" action="https://learning.oreilly.com/search/">
+        
+        <script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "WebSite",
+          "url": "https://learning.oreilly.com",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://learning.oreilly.com/search/?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        }
+        </script>
+        <input data-search-text-focus= "See everything available through the O’Reilly learning platform and start a free trial. Explore now." data-search-text-idle = "See everything available through the O’Reilly learning platform and start a free trial. Explore now." id="search" type="search" name="query" placeholder="See everything available through the O’Reilly learning platform and start a free trial. Explore now." autocomplete="off" required />
+        <input type="submit" value="Search" class="search-submit" />
+      </form>
+    </div>
+  </div>
+</header>
+
+    
+    
+        <div class="sbo-menu-top">
+           
+            <section class="sbo-toc-container">
+                <a href="https://learning.oreilly.com/library/view/learning-web-design/9781449337513/" class="sbo-toc-thumb">
+                    <span class="sbo-title ss-list">
+                        
+                            <h1 class="t-title">Learning Web Design, 4th Edition by Jennifer Robbins</h1>
+                        
+                    </span>
+                </a>
+            </section>
+             
+        </div>
+    
+
+
+</header>
+
+
+<section id="trial-overlay">
+  <div class="trial-overlay-content">
+    <p>Get full access to <em>Learning Web Design, 4th Edition</em> and 60K+ other titles, with a free 10-day trial of O'Reilly.</p>
+
+    <p>There are also live events, courses curated by job role, <span class="nowrap">and more.</span></p>
+
+    <div class="controls">
+      <a href="https://learning.oreilly.com/p/register/" class="button-primary" data-ga-label="Bottom CTA">Start your free trial</a>
+    </div>
+    <a class="modal-dismiss" aria-label="modal dismiss"></a>
+  </div>
+</section>
+
+<main role="main" id="maincontent">
+  <div role="document" class="document">
+  	
+<section id="sbo-reader">
+    
+    
+
+<div class="sbo-reader-content sbo-sample-reader ">
+    
+    <div id="sbo-rt-content" class="sbo-rt-content">
+    <div id="test-content-id"><section class="chapter" title="Chapter 4. Creating a Simple Page: (HTML Overview)" epub:type="chapter" id="creating_a_simple_page_left_parenthesish"><div class="titlepage"><div><div><h2 class="title">Chapter 4. Creating a Simple Page: (HTML Overview)</h2></div></div></div><div class="sidebar"><a id="in_this_chapter-004"></a><div class="sidebar-title">IN THIS CHAPTER</div><div class="itemizedlist"><ul class="itemizedlist"><li class="listitem" style="list-style-type: none"><p>An introduction to elements and attributes</p></li><li class="listitem" style="list-style-type: none"><p><a class="xref" href="ch04.html#web_pagecomma_step_by_step" title="A Web Page, Step by Step">A Web Page, Step by Step</a></p></li><li class="listitem" style="list-style-type: none"><p><a class="xref" href="ch04.html#step_2_give_the_document_structure" title="Step 2: Give the Document Structure">Step 2: Give the Document Structure</a></p></li><li class="listitem" style="list-style-type: none"><p><a class="xref" href="ch04.html#step_5_change_the_look_with_a_style_shee" title="Step 5: Change the Look with a Style Sheet">Step 5: Change the Look with a Style Sheet</a></p></li><li class="listitem" style="list-style-type: none"><p>Troubleshooting broken web pages</p></li></ul></div></div><p><a class="xref" href="pt01.html" title="Part I. Getting Started">Part I</a> provided a general overview of the web design environment. Now that we’ve covered the big concepts, it’s time to roll up our sleeves and start creating a real web page. It will be an extremely simple page, but even the most complicated pages are based on the principles described here.</p><p>In this chapter, we’ll create a web page step by step so you can get a feel for what it’s like to mark up a document with HTML tags. The exercises allow you to work along.</p><p>This is what I want you to get out of this chapter:</p><div class="itemizedlist"><ul class="itemizedlist"><li class="listitem"><p>Get a feel for how markup works, including an understanding of elements and attributes.</p></li><li class="listitem"><p>See how browsers interpret HTML documents.</p></li><li class="listitem"><p>Learn the basic structure of an HTML document.</p></li><li class="listitem"><p>Get a first glimpse of a style sheet in action.</p></li></ul></div><p>Don’t worry about learning the specific text elements or style sheet rules at this point; we’ll get to those in the following chapters. For now, just pay attention to the process, the overall structure of the document, and the new terminology.</p><div class="sect1" title="A Web Page, Step by Step"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="web_pagecomma_step_by_step">A Web Page, Step by Step</h2></div></div></div><p>You got a look at an HTML document in <a class="xref" href="ch02.html" title="Chapter 2. How the Web Works">Chapter 2</a>, but now you’ll get to create one yourself and play around with it in the browser. The demonstration in this chapter has five steps that cover the basics of page production.</p><div class="itemizedlist"><ul class="itemizedlist"><li class="listitem" style="list-style-type: none"><p title="Step 1: Start with content."><span class="title"><strong><span class="strong"><strong>Step 1: Start with content.</strong></span></strong></span> As a starting point, we’ll write up raw text content and see what browsers do with it.</p></li><li class="listitem" style="list-style-type: none"><p title="Step 2: Give the document structure."><span class="title"><strong><span class="strong"><strong>Step 2: Give the document structure.</strong></span></strong></span> You’ll learn about HTML element syntax and the elements that give a document its structure.</p></li><li class="listitem" style="list-style-type: none"><p title="Step 3: Identify text elements."><span class="title"><strong><span class="strong"><strong>Step 3: Identify text elements.</strong></span></strong></span> <a id="iddle1927" class="indexterm"></a><a id="iddle2916" class="indexterm"></a>You’ll describe the content using the appropriate text elements and learn about the proper way to use HTML.</p></li><li class="listitem" style="list-style-type: none"><p title="Step 4: Add an image."><span class="title"><strong><span class="strong"><strong>Step 4: Add an image.</strong></span></strong></span> By adding an image to the page, you’ll learn about attributes and empty elements.</p></li><li class="listitem" style="list-style-type: none"><p title="Step 5: Change the page appearance with a style sheet."><span class="title"><strong><span class="strong"><strong>Step 5: Change the page appearance with a style sheet.</strong></span></strong></span> This exercise gives you a taste of formatting content with Cascading Style Sheets.</p></li></ul></div><p>By the time we’re finished, you will have written the source document for the page shown in <a class="xref" href="ch04.html#in_this_chaptercomma_weapostrophell_writ" title="Figure 4-1. In this chapter, we’ll write the source document for this page step by step.">Figure 4-1</a>. It’s not very fancy, but you have to start somewhere.</p><p>We’ll be checking our work in a browser frequently throughout this demonstration—probably more than you would in real life. But because this is an introduction to HTML, it is helpful to see the cause and effect of each small change to the source file along the way.</p></div><div class="sect1" title="Before We Begin, Launch a Text Editor"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="before_we_begincomma_launch_a_text_edito">Before We Begin, Launch a Text Editor</h2></div></div></div><p>In this chapter and throughout the book, we’ll be writing out HTML documents by hand, so the first thing we need to do is launch a text editor. The text editor that is provided with your operating system, such as Notepad (Windows) or TextEdit (Macintosh), will do for these purposes. Other text editors are fine as long as you can save plain-text files with the <span class="emphasis"><em>.html</em></span> extension. If you have a WYSIWYG web-authoring tool such as Dreamweaver, set it aside for now. I want you to get a feel for marking up a document manually (see the sidebar <a class="xref" href="ch04.html#html_the_hard_way" title="HTML the Hard Way">HTML the Hard Way</a>).</p><div class="sidebar"><a id="html_the_hard_way"></a><div class="sidebar-title">HTML the Hard Way</div><p>I stand by my method of teaching HTML the old-fashioned way—<span class="emphasis"><em>by hand</em></span>. There’s no better way to truly understand how markup works than typing it out, one tag at a time, then opening your page in a browser. It doesn’t take long to develop a feel for marking up documents properly.</p><p>Although you may choose to use a web-authoring tool down the line, understanding HTML will make using your tools easier and more efficient. In addition, you will be glad that you can look at a source file and understand what you’re seeing. It is also crucial for troubleshooting broken pages or fine-tuning the default formatting that web tools produce.</p><p>And for what it’s worth, professional web developers tend to mark up content manually because it gives them better control over the code and allows them to make deliberate decisions about what elements are used.</p></div><p>This section shows how to open new documents in Notepad and TextEdit. Even if you’ve used these programs before, skim through for some special settings that will make the exercises go more smoothly. We’ll start with Notepad; Mac users can jump ahead.</p><div class="figure"><a id="in_this_chaptercomma_weapostrophell_writ"></a><div class="figure-contents"><div class="mediaobject"><a id="med_id00015"></a><img src="/api/v2/epubs/9781449337513/files/httpatomoreillycomsourceoreillyimages2257967.png" alt="In this chapter, we’ll write the source document for this page step by step." width="1000" height="712"></div></div><div class="figure-title">Figure 4-1. In this chapter, we’ll write the source document for this page step by step.</div></div><div class="sect2" title="Creating a new document in Notepad (Windows)"><div class="titlepage"><div><div><h3 class="title" id="creating_a_new_document_in_notepad_left">Creating a new document in Notepad (Windows)</h3></div></div></div><p><a id="iddle1950" class="indexterm"></a><a id="iddle2410" class="indexterm"></a><a id="iddle3171" class="indexterm"></a>These are the steps to creating a new document in Notepad on Windows 7 (<a class="xref" href="ch04.html#creating_a_new_document_in_notepad" title="Figure 4-2. Creating a new document in Notepad.">Figure 4-2</a>):</p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>Open the Start menu and navigate to Notepad (in Accessories). <span class="gray-background">1</span></p></li><li class="listitem"><p>Click on Notepad to open a new document window, and you’re ready to start typing. <span class="gray-background">2</span></p></li><li class="listitem"><p>Next, we’ll make the extensions visible. This step is not required to make HTML documents, but it will help make the file types clearer at a glance. Select “Folder Options...” from the Tools menu <span class="gray-background">3</span> and select the View tab <span class="gray-background">4</span>. Find “Hide extensions for known file types” and uncheck that option. <span class="gray-background">5</span> Click OK to save the preference, and the file extensions will now be visible.</p></li></ol></div><div class="note" title="Note"><h3 class="title"><a id="ch04note01"></a>Note</h3><p><span class="emphasis"><em>In Windows 7, hit the ALT key to reveal the menu to access Tools and Folder Options. In Windows Vista, it is labeled “Folder and Search Options.”</em></span></p></div><div class="figure"><a id="creating_a_new_document_in_notepad"></a><div class="figure-contents"><div class="mediaobject"><a id="med_id00016"></a><img src="/api/v2/epubs/9781449337513/files/httpatomoreillycomsourceoreillyimages2257969.png" alt="Creating a new document in Notepad." width="464" height="1000"></div></div><div class="figure-title">Figure 4-2. Creating a new document in Notepad.</div></div></div><div class="sect2" title="Creating a new document in TextEdit (Mac OS X)"><div class="titlepage"><div><div><h3 class="title" id="creating_a_new_document_in_textedit_left">Creating a new document in TextEdit (Mac OS X)</h3></div></div></div><p><a id="iddle1951" class="indexterm"></a><a id="iddle2261" class="indexterm"></a><a id="iddle2914" class="indexterm"></a>By default, TextEdit creates “rich text” documents—that is, documents that have hidden style formatting instructions for making text bold, setting font size, and so on. You can tell that TextEdit is in rich-text mode when it has a formatting toolbar at the top of the window (plain-text mode does not). HTML documents need to be plain-text documents, so we’ll need to change the format, as shown in this example (<a class="xref" href="ch04.html#launching_textedit_and_choosing_plain_te" title="Figure 4-3. Launching TextEdit and choosing Plain Text settings in the Preferences.">Figure 4-3</a>).</p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>Use the Finder to look in the <span class="emphasis"><em>Applications</em></span> folder for TextEdit. When you’ve found it, double-click the name or icon to launch the application.</p></li><li class="listitem"><p>TextEdit opens a new document. The text-formatting menu at the top shows that you are in Rich Text mode. Here’s how you change it.</p></li><li class="listitem"><p>Open the Preferences dialog box from the TextEdit menu.</p></li><li class="listitem"><p>There are three settings you need to adjust:</p><p>On the “New Document” tab, select “Plain text”.</p><p>On the “Open and Save” tab, select “Ignore rich text commands in HTML files” and turn off “Append ‘.txt’ extensions to plain text files”.</p></li><li class="listitem"><p>When you are done, click the red button in the top-left corner.</p></li><li class="listitem"><p>When you create a new document, the formatting menu will no longer be there and you can save your text as an HTML document. You can always convert a document back to rich text by selecting Format → Make Rich Text when you are not using TextEdit for HTML.</p></li></ol></div><div class="figure"><a id="launching_textedit_and_choosing_plain_te"></a><div class="figure-contents"><div class="mediaobject"><a id="med_id00017"></a><img src="/api/v2/epubs/9781449337513/files/httpatomoreillycomsourceoreillyimages2257971.png.jpg" alt="Launching TextEdit and choosing Plain Text settings in the Preferences." width="721" height="1000"></div></div><div class="figure-title">Figure 4-3. Launching TextEdit and choosing Plain Text settings in the Preferences.</div></div></div></div><div class="sect1" title="Step 1: Start with Content"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="step_1_start_with_content">Step 1: Start with Content</h2></div></div></div><p><a id="iddle1307" class="indexterm"></a><a id="iddle1417" class="indexterm"></a><a id="iddle1418" class="indexterm"></a><a id="iddle1682" class="indexterm"></a><a id="iddle2388" class="indexterm"></a><a id="iddle2803" class="indexterm"></a>Now that we have our new document, it’s time to get typing. A web page always starts with content, so that’s where we begin our demonstration. <a class="xref" href="ch04.html#exercise_4-1_vertical_line_entering_cont" title="Exercise 4-1 | Entering content">Exercise 4-1 | Entering content</a> walks you through entering the raw text content and saving the document in a new folder.</p><div class="sidebar"><a id="naming_conventions"></a><div class="sidebar-title">Naming Conventions</div><p>It is important that you follow these rules and conventions when naming your files:</p><div class="itemizedlist"><ul class="itemizedlist"><li class="listitem" style="list-style-type: none"><p><span class="strong"><strong>Use proper suffixes for your files.</strong></span> HTML and XHTML files must end with <span class="emphasis"><em>.html</em></span>. Web graphics must be labeled according to their file format: <span class="emphasis"><em>.gif</em></span>, <span class="emphasis"><em>.png</em></span>, or <span class="emphasis"><em>.jpg</em></span> (<span class="emphasis"><em>.jpeg</em></span> is also acceptable).</p></li><li class="listitem" style="list-style-type: none"><p><span class="strong"><strong>Never use character spaces within filenames.</strong></span> It is common to use an underline character or hyphen to visually separate words within filenames, such as <span class="emphasis"><em>robbins_bio.html</em></span> or <span class="emphasis"><em>robbins-bio.html</em></span>.</p></li><li class="listitem" style="list-style-type: none"><p><span class="strong"><strong>Avoid special characters</strong></span> such as <span class="strong"><strong><code class="literal">?</code>, <code class="literal">%</code>, <code class="literal">#</code>, <code class="literal">/</code>, <code class="literal">:</code>, <code class="literal">;</code>, <code class="literal">•</code></strong></span>, etc. Limit filenames to letters, numbers, underscores, hyphens, and periods.</p></li><li class="listitem" style="list-style-type: none"><p><span class="strong"><strong>Filenames may be case-sensitive,</strong></span> depending on your server configuration. Consistently using all lowercase letters in filenames, although not necessary, is one way to make your filenames easier to manage.</p></li><li class="listitem" style="list-style-type: none"><p><span class="strong"><strong>Keep filenames short.</strong></span> Short names keep the character count and file size of your HTML file in check. If you really must give the file a long, multiword name, you can separate words with hyphens, such as <span class="emphasis"><em>a-long-document-title.html</em></span>, to improve readability.</p></li><li class="listitem" style="list-style-type: none"><p><span class="strong"><strong>Self-imposed conventions.</strong></span> It is helpful to develop a consistent naming scheme for huge sites—for instance, always using lowercase with hyphens between words. This takes some of the guesswork out of remembering what you named a file when you go to link to it later.</p></li></ul></div></div><div class="sidebar"><a id="exercise_4-1_vertical_line_entering_cont"></a><div class="sidebar-title">Exercise 4-1 | Entering content</div><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>Type the content below for the home page into the new document in your text editor. Copy it exactly as you see it here, keeping the line breaks the same for the sake of playing along. The raw text for this exercise is available online at <span class="emphasis"><em><a class="ulink" href="http://www.learningwebdesign.com/4e/materials/" target="_top">www.learningwebdesign.com/4e/materials/</a></em></span>.</p><a id="pro_id00003"></a><pre class="programlisting">Black Goose Bistro
+
+The Restaurant
+The Black Goose Bistro offers casual lunch and dinner fare in
+a hip atmosphere. The menu changes regularly to highlight the
+freshest ingredients.
+
+Catering
+You have fun... we'll handle the cooking. Black Goose Catering
+can handle events from snacks for bridge club to elegant corporate
+fundraisers.
+
+Location and Hours
+Seekonk, Massachusetts;
+Monday through Thursday 11am to 9pm, Friday and Saturday, 11am to
+midnight</pre></li><li class="listitem"><p>Select “Save” or “Save as” from the File menu to get the Save As dialog box (<a class="xref" href="ch04.html#saving_indexdothtml_in_a_new_folder_call" title="Figure 4-4. Saving index.html in a new folder called “bistro”.">Figure 4-4</a>). The first thing you need to do is create a new folder that will contain all of the files for the site (in other words, it’s the local root folder).</p><p>Windows: Click the folder icon at the top to create the new folder.</p><p>Mac: Click the “New Folder” button.</p><div class="figure"><a id="saving_indexdothtml_in_a_new_folder_call"></a><div class="figure-contents"><div class="mediaobject"><a id="med_id00018"></a><img src="/api/v2/epubs/9781449337513/files/httpatomoreillycomsourceoreillyimages2257973.png.jpg" alt="Saving index.html in a new folder called “bistro”." width="1000" height="505"></div></div><div class="figure-title">Figure 4-4. Saving index.html in a new folder called “bistro”.</div></div><p><a id="iddle1008" class="indexterm"></a><a id="iddle1266" class="indexterm"></a><a id="iddle1394" class="indexterm"></a><a id="iddle2047" class="indexterm"></a><a id="iddle2217" class="indexterm"></a><a id="iddle2286" class="indexterm"></a><a id="iddle2792" class="indexterm"></a><a id="iddle2795" class="indexterm"></a><a id="iddle2866" class="indexterm"></a><a id="iddle2883" class="indexterm"></a><a id="iddle3154" class="indexterm"></a>Name the new folder <span class="emphasis"><em>bistro</em></span>, and save the text file as <span class="emphasis"><em>index.html</em></span> in it. Windows users, you will also need to choose “All Files” after “Save as type” to prevent Notepad from adding a “.txt” extension to your filename. The filename needs to end in <span class="emphasis"><em>.html</em></span> to be recognized by the browser as a web document. See the sidebar <a class="xref" href="ch04.html#naming_conventions" title="Naming Conventions">Naming Conventions</a> for more tips on naming files.</p></li><li class="listitem"><p>Just for kicks, let’s take a look at <span class="emphasis"><em>index.html</em></span> in a browser. Launch your favorite browser (I’m using Google Chrome) and choose “Open” or “Open File” from the File menu. Navigate to <span class="emphasis"><em>index.html</em></span>, and then select the document to open it in the browser. You should see something like the page shown in <a class="xref" href="ch04.html#first_look_at_the_content_in_a_browserdo" title="Figure 4-5. A first look at the content in a browser.">Figure 4-5</a>. We’ll talk about the results in the following section.</p><div class="figure"><a id="first_look_at_the_content_in_a_browserdo"></a><div class="figure-contents"><div class="mediaobject"><a id="med_id00019"></a><img src="/api/v2/epubs/9781449337513/files/httpatomoreillycomsourceoreillyimages2257975.png" alt="A first look at the content in a browser." width="636" height="315"></div></div><div class="figure-title">Figure 4-5. A first look at the content in a browser.</div></div></li></ol></div></div><div class="sidebar"><a id="what_browsers_ignore"></a><div class="sidebar-title">What Browsers Ignore</div><p>Some information in the source document will be ignored when it is viewed in a browser, including:</p><div class="itemizedlist"><ul class="itemizedlist"><li class="listitem" style="list-style-type: none"><p title="Multiple (white) spaces."><span class="title"><strong><span class="emphasis"><em>Multiple (white) spaces.</em></span></strong></span> When a browser encounters more than one consecutive blank character space, it displays a single space. So if the document contains:</p><a id="pro_id00004"></a><pre class="programlisting">long,     long      ago</pre><p>the browser displays:</p><p>long, long ago</p></li><li class="listitem" style="list-style-type: none"><p title="Line breaks (carriage returns)."><span class="title"><strong><span class="emphasis"><em>Line breaks (carriage returns).</em></span></strong></span> Browsers convert carriage returns to white spaces, so following the earlier “ignore multiple white spaces rule,” line breaks have no effect on formatting the page. Text and elements wrap continuously until a new block element, such as a heading (<span class="strong"><strong><code class="literal">h1</code></strong></span>) or paragraph (<span class="strong"><strong><code class="literal">p</code></strong></span>), or the line break element (<span class="strong"><strong><code class="literal">br</code></strong></span>) is encountered in the flow of the document text.</p></li><li class="listitem" style="list-style-type: none"><p title="Tabs."><span class="title"><strong><span class="strong"><strong>Tabs.</strong></span></strong></span> Tabs are also converted to character spaces, so guess what? Useless.</p></li><li class="listitem" style="list-style-type: none"><p title="Unrecognized markup."><span class="title"><strong><span class="emphasis"><em>Unrecognized markup.</em></span></strong></span> Browsers are instructed to ignore any tag they don’t understand or that was specified incorrectly. Depending on the element and the browser, this can have varied results. The browser may display nothing at all, or it may display the contents of the tag as though it were normal text.</p></li><li class="listitem" style="list-style-type: none"><p title="Text in comments."><span class="title"><strong><span class="emphasis"><em>Text in comments.</em></span></strong></span> Browsers will not display text between the special <span class="strong"><strong><code class="literal">&lt;!--</code></strong></span> and <span class="strong"><strong><code class="literal">--&gt;</code></strong></span> tags used to denote a comment. See the <a class="xref" href="ch04.html#adding_hidden_comments" title="Adding Hidden Comments">Adding Hidden Comments</a> sidebar later in this chapter.</p></li></ul></div></div><div class="sect2" title="Learning from step 1"><div class="titlepage"><div><div><h3 class="title" id="learning_from_step_1">Learning from step 1</h3></div></div></div><p>Our content isn’t looking so good (<a class="xref" href="ch04.html#first_look_at_the_content_in_a_browserdo" title="Figure 4-5. A first look at the content in a browser.">Figure 4-5</a>). The text is all run together—that’s not how it looked in the original document. There are a couple of things to be learned here. The first thing that is apparent is that the browser ignores line breaks in the source document. The sidebar <a class="xref" href="ch04.html#what_browsers_ignore" title="What Browsers Ignore">What Browsers Ignore</a> lists other information in the source that is not displayed in the browser window.</p><p>Second, we see that simply typing in some content and naming the document <span class="emphasis"><em>.html</em></span> is not enough. While the browser can display the text from the file, we haven’t indicated the <span class="emphasis"><em>structure</em></span> of the content. That’s where HTML comes in. We’ll use markup to add structure: first to the HTML document itself (coming up in Step 2), then to the page’s content (Step 3). Once the browser knows the structure of the content, it can display the page in a more meaningful way.</p></div></div><div class="sect1" title="Step 2: Give the Document Structure"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="step_2_give_the_document_structure">Step 2: Give the Document Structure</h2></div></div></div><p><a id="iddle1015" class="indexterm"></a><a id="iddle1022" class="indexterm"></a><a id="iddle1060" class="indexterm"></a><a id="iddle1306" class="indexterm"></a><a id="iddle1349" class="indexterm"></a><a id="iddle1413" class="indexterm"></a><a id="iddle1420" class="indexterm"></a><a id="iddle1613" class="indexterm"></a><a id="iddle1618" class="indexterm"></a><a id="iddle1639" class="indexterm"></a><a id="iddle1647" class="indexterm"></a><a id="iddle2285" class="indexterm"></a><a id="iddle2437" class="indexterm"></a><a id="iddle2817" class="indexterm"></a><a id="iddle2854" class="indexterm"></a><a id="iddle2868" class="indexterm"></a><a id="iddle3193" class="indexterm"></a>We have our content saved in an <span class="emphasis"><em>.html</em></span> document—now we’re ready to start marking it up.</p><div class="sect2" title="Introducing...HTML elements"><div class="titlepage"><div><div><h3 class="title" id="introducinghelliphtml_elements">Introducing...HTML elements</h3></div></div></div><p>Back in <a class="xref" href="ch02.html" title="Chapter 2. How the Web Works">Chapter 2</a>, you saw examples of HTML elements with an opening tag (<span class="strong"><strong><code class="literal">&lt;p&gt;</code></strong></span> for a paragraph, for example) and closing tag (<span class="strong"><strong><code class="literal">&lt;/p&gt;</code></strong></span>). Before we start adding tags to our document, let’s look at the anatomy of an HTML element (its <span class="strong"><strong>syntax</strong></span>) and firm up some important terminology. A generic container element is labeled in <a class="xref" href="ch04.html#parts_of_an_html_container_element" title="Figure 4-6. The parts of an HTML container element.">Figure 4-6</a>.</p><div class="blockquote"><blockquote class="blockquote"><p><span class="emphasis"><em>An element consists of both the content and its markup.</em></span></p></blockquote></div><div class="figure"><a id="parts_of_an_html_container_element"></a><div class="figure-contents"><div class="mediaobject"><a id="med_id00020"></a><img src="/api/v2/epubs/9781449337513/files/httpatomoreillycomsourceoreillyimages2257977.png" alt="The parts of an HTML container element." width="1000" height="394"></div></div><div class="figure-title">Figure 4-6. The parts of an HTML container element.</div></div><p>Elements are identified by tags in the text source. A <span class="strong"><strong>tag</strong></span> consists of the element name (usually an abbreviation of a longer descriptive name) within angle brackets (<span class="strong"><strong><code class="literal">&lt; &gt;</code></strong></span>). The browser knows that any text within brackets is hidden and not displayed in the browser window.</p><p>The element name appears in the <span class="strong"><strong>opening tag</strong></span> (also called a <span class="strong"><strong>start tag</strong></span>) and again in the <span class="strong"><strong>closing</strong></span> (or <span class="strong"><strong>end</strong></span>) <span class="strong"><strong>tag</strong></span> preceded by a slash (<span class="strong"><strong><code class="literal">/</code></strong></span>). The closing tag works something like an “off” switch for the element. Be careful not to use the similar backslash character in end tags (see the tip <a class="xref" href="ch04.html#ch04note02a">Introducing...HTML elements</a>).</p><p>The tags added around content are referred to as the <span class="strong"><strong>markup</strong></span>. It is important to note that an <span class="strong"><strong>element</strong></span> consists of both the content <span class="emphasis"><em>and</em></span> its markup (the start and end tags). Not all elements have content, however. Some are <span class="strong"><strong>empty</strong></span> by definition, such as the <span class="strong"><strong><code class="literal">img</code></strong></span> element used to add an image to the page. We’ll talk about empty elements a little later in this chapter.</p><p>One last thing...capitalization. In HTML, the capitalization of element names is not important. So <span class="strong"><strong><code class="literal">&lt;img&gt;</code></strong></span>, <span class="strong"><strong><code class="literal">&lt;Img&gt;</code></strong></span>, and <span class="strong"><strong><code class="literal">&lt;IMG&gt;</code></strong></span> are all the same as far as the browser is concerned. However, in XHTML (the stricter version of HTML) all element names must be all lowercase in order to be valid. Many web developers have come to like the orderliness of the stricter XHTML markup rules and stick with all lowercase, as I will do in this book.</p><div class="tip" title="Tip"><h3 class="title"><a id="ch04note02"></a>Tip</h3><p><a id="ch04note02a"></a><span class="strong"><strong>Slash vs. Backslash</strong></span></p><p>HTML tags and URLs use the slash character (/). The slash character is found under the question mark (?) on the standard QWERTY keyboard.</p><p>It is easy to confuse the slash with the backslash character (\), which is found under the bar character (|). The backslash key will not work in tags or URLs, so be careful not to use it.</p><div class="informalfigure"><a id="med_id00021a"></a><div class="mediaobject"><a id="med_id00021"></a><img src="/api/v2/epubs/9781449337513/files/httpatomoreillycomsourceoreillyimages2257979.png" alt="image with no caption" width="407" height="211"></div></div></div></div><div class="sect2" title="Basic document structure"><div class="titlepage"><div><div><h3 class="title" id="basic_document_structure">Basic document structure</h3></div></div></div><p><a id="iddle1215" class="indexterm"></a><a id="iddle1321" class="indexterm"></a><a id="iddle1540" class="indexterm"></a><a id="iddle1554" class="indexterm"></a><a id="iddle2319" class="indexterm"></a><a id="iddle2953" class="indexterm"></a><a id="iddle3195" class="indexterm"></a><a class="xref" href="ch04.html#minimal_structure_of_an_html_document" title="Figure 4-7. The minimal structure of an HTML document.">Figure 4-7</a> shows the recommended minimal skeleton of an HTML5 document. I say “recommended” because the only element that is <span class="emphasis"><em>required</em></span> in HTML is the <span class="strong"><strong><code class="literal">title</code></strong></span>. But I feel it is better, particularly for beginners, to explicitly organize documents with the proper structural markup. And if you are writing in the stricter XHTML, all of the following elements except <span class="strong"><strong><code class="literal">meta</code></strong></span> must be included in order to be valid. Let’s take a look at what’s going on in <a class="xref" href="ch04.html#minimal_structure_of_an_html_document" title="Figure 4-7. The minimal structure of an HTML document.">Figure 4-7</a>.</p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>I don’t want to confuse things, but the first line in the example isn’t an element at all; it is a <span class="strong"><strong>document type declaration</strong></span> (also called <span class="strong"><strong>DOCTYPE declaration</strong></span>) that identifies this document as an HTML5 document. I have a lot more to say about DOCTYPE declarations in <a class="xref" href="ch10.html" title="Chapter 10. What’s Up, HTML5?">Chapter 10</a>, but for this discussion, suffice it to say that including it lets modern browsers know they should interpret the document as written according to the HTML5 specification.</p></li><li class="listitem"><p>The entire document is contained within an <span class="strong"><strong><code class="literal">html</code></strong></span> element. The <span class="strong"><strong><code class="literal">html</code></strong></span> element is called the <span class="strong"><strong>root element</strong></span> because it contains all the elements in the document, and it may not be contained within any other element. It is used for both HTML and XHTML documents.</p></li><li class="listitem"><p>Within the <span class="strong"><strong><code class="literal">html</code></strong></span> element, the document is divided into a <span class="strong"><strong>head</strong></span> and a <span class="strong"><strong>body</strong></span>. The <span class="strong"><strong><code class="literal">head</code></strong></span> element contains descriptive information about the document itself, such as its title, the style sheet(s) it uses, scripts, and other types of “meta” information.</p></li><li class="listitem"><p>The <span class="strong"><strong><code class="literal">meta</code></strong></span> elements within the <span class="strong"><strong><code class="literal">head</code></strong></span> element provide information <span class="emphasis"><em>about</em></span> the document itself. A <span class="strong"><strong><code class="literal">meta</code></strong></span> element can be used to provide all sorts of information, but in this case, it specifies the <span class="strong"><strong>character encoding</strong></span> (the standardized collection of letters, numbers, and symbols) used in the document. I don’t want to go into too much detail on this right now, but know that there are many good reasons for specifying the <span class="strong"><strong><code class="literal">charset</code></strong></span> in every document, so I have included it as part of the minimal document structure.</p><div class="note" title="Note"><h3 class="title"><a id="ch04note03"></a>Note</h3><p><span class="emphasis"><em>Prior to HTML5, the syntax for specifying the character set with the</em></span> <span class="strong"><strong><code class="literal">meta</code></strong></span> <span class="emphasis"><em>element was a bit more elaborate. If you are writing your documents in HTML 4.01 or XHTML 1.0, your</em></span> <span class="strong"><strong><code class="literal">meta</code></strong></span> <span class="emphasis"><em>element should look like this:</em></span></p><a id="pro_id00005"></a><pre class="programlisting">&lt;meta <span class="strong"><strong>http-equiv="content-type" content="text/html;charset=UTF-8"</strong></span>&gt;</pre></div></li><li class="listitem"><p>Also in the <span class="strong"><strong><code class="literal">head</code></strong></span> is the mandatory <span class="strong"><strong><code class="literal">title</code></strong></span> element. According to the HTML specification, every document must contain a descriptive title.</p></li><li class="listitem"><p>Finally, the <span class="strong"><strong><code class="literal">body</code></strong></span> element contains everything that we want to show up in the browser window.</p></li></ol></div><div class="figure"><a id="minimal_structure_of_an_html_document"></a><div class="figure-contents"><div class="mediaobject"><a id="med_id00022"></a><img src="/api/v2/epubs/9781449337513/files/httpatomoreillycomsourceoreillyimages2257981.png" alt="The minimal structure of an HTML document." width="1000" height="612"></div></div><div class="figure-title">Figure 4-7. The minimal structure of an HTML document.</div></div><p>Are you ready to add some structure to the Black Goose Bistro home page? Open the <span class="emphasis"><em>index.html</em></span> document and move on to <a class="xref" href="ch04.html#exercise_4-2_vertical_line_adding_basic" title="Exercise 4-2 | Adding basic structure">Exercise 4-2 | Adding basic structure</a>.</p><div class="sidebar"><a id="exercise_4-2_vertical_line_adding_basic"></a><div class="sidebar-title">Exercise 4-2 | Adding basic structure</div><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p><a id="iddle2398" class="indexterm"></a>Open the newly created document, <span class="emphasis"><em>index.html</em></span>, if it isn’t open already.</p></li><li class="listitem"><p>Start by adding the HTML5 DOCTYPE declaration:</p><a id="pro_id00006"></a><pre class="programlisting">&lt;!DOCTYPE html&gt;</pre></li><li class="listitem"><p>Put the entire document in an HTML root element by adding an <span class="strong"><strong><code class="literal">&lt;html&gt;</code></strong></span> start tag at the very beginning and an <span class="strong"><strong><code class="literal">&lt;/html&gt;</code></strong></span> end tag at the end of the text.</p></li><li class="listitem"><p>Next, create the document head that contains the title for the page. Insert <span class="strong"><strong><code class="literal">&lt;head&gt;</code></strong></span> and <span class="strong"><strong><code class="literal">&lt;/head&gt;</code></strong></span> tags before the content. Within the <span class="strong"><strong><code class="literal">head</code></strong></span> element, add information about the character encoding <span class="strong"><strong><code class="literal">&lt;meta charset="utf-8"&gt;</code></strong></span>, and the title, “Black Goose Bistro”, surrounded by opening and closing <span class="strong"><strong><code class="literal">&lt;title&gt;</code></strong></span> tags.</p><p><span class="emphasis"><em>The correct terminology is to say that the</em></span> <span class="strong"><strong><code class="literal">title</code></strong></span> <span class="emphasis"><em>element is</em></span> <span class="bolditalic">nested</span> <span class="emphasis"><em>within the</em></span> <span class="strong"><strong><code class="literal">head</code></strong></span> <span class="emphasis"><em>element. We’ll talk about nesting more in later chapters.</em></span></p></li><li class="listitem"><p>Finally, define the body of the document by wrapping the content in <span class="strong"><strong><code class="literal">&lt;body&gt;</code></strong></span> and <span class="strong"><strong><code class="literal">&lt;/body&gt;</code></strong></span> tags. When you are done, the source document should look like this (the markup is shown in color to make it stand out):</p><a id="pro_id00007"></a><pre class="programlisting"><span class="strong"><strong>&lt;!DOCTYPE html&gt;</strong></span>
+<span class="strong"><strong>&lt;html&gt;</strong></span>
+
+<span class="strong"><strong>&lt;head&gt;</strong></span>
+<span class="strong"><strong>&lt;meta charset="utf-8"&gt;</strong></span>
+<span class="strong"><strong>&lt;title&gt;</strong></span>Black Goose Bistro<span class="strong"><strong>&lt;/title&gt;</strong></span>
+<span class="strong"><strong>&lt;/head&gt;</strong></span>
+
+<span class="strong"><strong>&lt;body&gt;</strong></span>
+Black Goose Bistro
+
+The Restaurant
+The Black Goose Bistro offers casual lunch and dinner fare in a hip atmosphere. The menu changes regularly to highlight the freshest ingredients.
+
+Catering
+You have fun... we'll do the cooking. Black Goose catering can handle events from snacks for bridge club to elegant corporate fundraisers.
+Location and Hours Seekonk, Massachusetts; Monday through Thursday 11am to 9pm, Friday and Saturday, 11am to midnight
+<span class="strong"><strong>&lt;/body&gt;</strong></span>
+
+<span class="strong"><strong>&lt;/html&gt;</strong></span></pre></li><li class="listitem"><p>Save the document in the <span class="emphasis"><em>bistro</em></span> directory, so that it overwrites the old version. Open the file in the browser or hit “refresh” or “reload” if it is open already. <a class="xref" href="ch04.html#page_in_a_browser_after_the_document_str" title="Figure 4-8. The page in a browser after the document structure elements have been defined.">Figure 4-8</a> shows how it should look now.</p><div class="figure"><a id="page_in_a_browser_after_the_document_str"></a><div class="figure-contents"><div class="mediaobject"><a id="med_id00023"></a><img src="/api/v2/epubs/9781449337513/files/httpatomoreillycomsourceoreillyimages2257983.png" alt="The page in a browser after the document structure elements have been defined." width="636" height="282"></div></div><div class="figure-title">Figure 4-8. The page in a browser after the document structure elements have been defined.</div></div></li></ol></div></div><p><a id="iddle1559" class="indexterm"></a><a id="iddle2561" class="indexterm"></a><a id="iddle2745" class="indexterm"></a><a id="iddle2918" class="indexterm"></a>Not much has changed after structuring the document, except that the browser now displays the title of the document in the top bar or tab. If someone were to bookmark this page, that title would be added to his Bookmarks or Favorites list as well (see the sidebar <a class="xref" href="ch04.html#donapostrophet_forget_a_good_title" title="Don’t Forget a Good Title">Don’t Forget a Good Title</a>). But the content still runs together because we haven’t given the browser any indication of how it should be structured. We’ll take care of that next.</p></div></div><div class="sect1" title="Step 3: Identify Text Elements"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="step_3_identify_text_elements">Step 3: Identify Text Elements</h2></div></div></div><p>With a little markup experience under your belt, it should be a no-brainer to add the markup that identifies headings and subheads (<span class="strong"><strong><code class="literal">h1</code></strong></span> and <span class="strong"><strong><code class="literal">h2</code></strong></span>), paragraphs (<span class="strong"><strong><code class="literal">p</code></strong></span>), and emphasized text (<span class="strong"><strong><code class="literal">em</code></strong></span>) to our content, as we’ll do in <a class="xref" href="ch04.html#exercise_4-3_vertical_line_defining_text" title="Exercise 4-3 | Defining text elements">Exercise 4-3 | Defining text elements</a>. However, before we begin, I want to take a moment to talk about what we’re doing and not doing when marking up content with HTML.</p><div class="sect2" title="Introducing...semantic markup"><div class="titlepage"><div><div><h3 class="title" id="introducinghellipsemantic_markup">Introducing...semantic markup</h3></div></div></div><p>The purpose of HTML is to add meaning and structure to the content. It is <span class="emphasis"><em>not</em></span> intended to provide instructions for how the content should look (its presentation).</p><p>Your job when marking up content is to choose the HTML element that provides the most meaningful description of the content at hand. In the biz, we call this <span class="strong"><strong>semantic markup</strong></span>. For example, the most important heading at the beginning of the document should be marked up as an <span class="strong"><strong><code class="literal">h1</code></strong></span> because it is the most important heading on the page. Don’t worry about what it looks like in the browser...you can easily change that with a style sheet. The important thing is that you choose elements based on what makes the most sense for the content.</p><div class="sidebar"><a id="donapostrophet_forget_a_good_title"></a><div class="sidebar-title">Don’t Forget a Good Title</div><p>Not only is a <span class="strong"><strong><code class="literal">title</code></strong></span> element required for every document, it is quite useful as well. The title is what is displayed in a user’s Bookmarks or Favorites list and on tabs in desktop browsers. Descriptive titles are also a key tool for improving accessibility, as they are the first thing a person hears when using a screen reader. Search engines rely heavily on document titles as well. For these reasons, it’s important to provide thoughtful and descriptive titles for all your documents and avoid vague titles, such as “Welcome” or “My Page.” You may also want to keep the length of your titles in check so they are able to display in the browser’s title area. Another best practice is to put the part of the title with more specific information first (for example, the page description ahead of the company name) so that the page title is visible when multiple tabs are lined up in the browser window.</p></div><p>In addition to adding meaning to content, the markup gives the document structure. The way elements follow each other or nest within one another creates relationships between the elements. You can think of it as an outline (its technical name is the <span class="strong"><strong>DOM</strong></span>, for <span class="strong"><strong>Document Object Model</strong></span>). The underlying document hierarchy is important because it gives browsers cues on how to handle the content. It is also the foundation upon which we add presentation instructions with style sheets and behaviors with JavaScript. We’ll talk about document structure more in <a class="xref" href="pt03.html" title="Part III. CSS for Presentation">Part III</a>, when we discuss Cascading Style Sheets, and in <a class="xref" href="pt04.html" title="Part IV. JavaScript for Behaviors">Part IV</a> in the JavaScript overview.</p><p>Although HTML was intended to be used strictly for meaning and structure since its creation, that mission was somewhat thwarted in the early years of the Web. With no style sheet system in place, HTML was extended to give authors ways to change the appearance of fonts, colors, and alignment using markup alone. Those presentational extras are still out there, so you may run across them if you view the source of older sites or a site made with old tools. <a id="iddle1629" class="indexterm"></a><a id="iddle1882" class="indexterm"></a><a id="iddle1884" class="indexterm"></a><a id="iddle2552" class="indexterm"></a><a id="iddle2919" class="indexterm"></a><a id="iddle2921" class="indexterm"></a>In this book, however, we’ll focus on using HTML the right way, in keeping with the contemporary standards-based, semantic approach to web design.</p><p>OK, enough lecturing. It’s time to get to work on that content in <a class="xref" href="ch04.html#exercise_4-3_vertical_line_defining_text" title="Exercise 4-3 | Defining text elements">Exercise 4-3 | Defining text elements</a>.</p><div class="sidebar"><a id="exercise_4-3_vertical_line_defining_text"></a><div class="sidebar-title">Exercise 4-3 | Defining text elements</div><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>Open the document <span class="emphasis"><em>index.html</em></span> in your text editor, if it isn’t open already.</p></li><li class="listitem"><p>The first line of text, “Black Goose Bistro,” is the main heading for the page, so we’ll mark it up as a Heading Level 1 (<span class="strong"><strong><code class="literal">h1</code></strong></span>) element. Put the opening tag, <span class="strong"><strong><code class="literal">&lt;h1&gt;</code></strong></span>, at the beginning of the line and the closing tag, <span class="strong"><strong><code class="literal">&lt;/h1&gt;</code></strong></span>, after it, like this:</p><a id="pro_id00008"></a><pre class="programlisting"><span class="strong"><strong>&lt;h1&gt;</strong></span>Black Goose Bistro<span class="strong"><strong>&lt;/h1&gt;</strong></span></pre></li><li class="listitem"><p>Our page also has three subheads. Mark them up as Heading Level 2 (<span class="strong"><strong><code class="literal">h2</code></strong></span>) elements in a similar manner. I’ll do the first one here; you do the same for “Catering” and “Location and Hours”.</p><a id="pro_id00009"></a><pre class="programlisting"><span class="strong"><strong>&lt;h2&gt;</strong></span>The Restaurant<span class="strong"><strong>&lt;/h2&gt;</strong></span></pre></li><li class="listitem"><p>Each <span class="strong"><strong><code class="literal">h2</code></strong></span> element is followed by a brief paragraph of text, so let’s mark those up as paragraph (<span class="strong"><strong><code class="literal">p</code></strong></span>) elements in a similar manner. Here’s the first one; you do the rest.</p><a id="pro_id00010"></a><pre class="programlisting"><span class="strong"><strong>&lt;p&gt;</strong></span>The Black Goose Bistro offers casual lunch and
+dinner fare in a hip atmosphere. The menu changes
+regularly to highlight the freshest ingredients.
+<span class="strong"><strong>&lt;/p&gt;</strong></span></pre></li><li class="listitem"><p>Finally, in the Catering section, I want to emphasize that visitors should just leave the cooking to us. To make text emphasized, mark it up in an emphasis element (<span class="strong"><strong><code class="literal">em</code></strong></span>) element, as shown here.</p><a id="pro_id00011"></a><pre class="programlisting">&lt;p&gt; You have fun... <span class="strong"><strong>&lt;em&gt;</strong></span>we'll handle the cooking
+<span class="strong"><strong>&lt;/em&gt;</strong></span>. Black Goose Catering can handle events
+from snacks for bridge club to elegant corporate
+fundraisers.&lt;/p&gt;</pre></li><li class="listitem"><p>Now that we’ve marked up the document, let’s save it as we did before, and open (or refresh) the page in the browser. You should see a page that looks much like the one in <a class="xref" href="ch04.html#home_page_after_the_content_has_been_mar" title="Figure 4-9. The home page after the content has been marked up with HTML elements.">Figure 4-9</a>. If it doesn’t, check your markup to be sure that you aren’t missing any angle brackets or a slash in a closing tag.</p><div class="figure"><a id="home_page_after_the_content_has_been_mar"></a><div class="figure-contents"><div class="mediaobject"><a id="med_id00024"></a><img src="/api/v2/epubs/9781449337513/files/httpatomoreillycomsourceoreillyimages2257985.png" alt="The home page after the content has been marked up with HTML elements." width="1000" height="711"></div></div><div class="figure-title">Figure 4-9. The home page after the content has been marked up with HTML elements.</div></div></li></ol></div></div><p>Now we’re getting somewhere. With the elements properly identified, the browser can now display the text in a more meaningful manner. There are a few significant things to note about what’s happening in <a class="xref" href="ch04.html#home_page_after_the_content_has_been_mar" title="Figure 4-9. The home page after the content has been marked up with HTML elements.">Figure 4-9</a>.</p></div><div class="sect2" title="Block and inline elements"><div class="titlepage"><div><div><h3 class="title" id="block_and_inline_elements">Block and inline elements</h3></div></div></div><p>Although it may seem like stating the obvious, it is worth pointing out that the heading and paragraph elements start on new lines and do not run together as they did before. That is because by default, headings and paragraphs display as <span class="strong"><strong>block elements</strong></span>. Browsers treat block elements as though they are in little rectangular boxes, stacked up in the page. Each block element begins on a new line, and some space is also usually added above and below the entire element by default. In <a class="xref" href="ch04.html#outlines_show_the_structure_of_the_eleme" title="Figure 4-10. The outlines show the structure of the elements in the home page.">Figure 4-10</a>, the edges of the block elements are outlined in red.</p><div class="figure"><a id="outlines_show_the_structure_of_the_eleme"></a><div class="figure-contents"><div class="mediaobject"><a id="med_id00025"></a><img src="/api/v2/epubs/9781449337513/files/httpatomoreillycomsourceoreillyimages2257987.png.jpg" alt="The outlines show the structure of the elements in the home page." width="653" height="500"></div></div><div class="figure-title">Figure 4-10. The outlines show the structure of the elements in the home page.</div></div><p><a id="iddle1009" class="indexterm"></a><a id="iddle1257" class="indexterm"></a><a id="iddle1395" class="indexterm"></a><a id="iddle1631" class="indexterm"></a><a id="iddle2054" class="indexterm"></a><a id="iddle2920" class="indexterm"></a><a id="iddle3027" class="indexterm"></a>By contrast, look at the text we marked up as emphasized (<span class="strong"><strong><code class="literal">em</code></strong></span>). It does not start a new line, but rather stays in the flow of the paragraph. That is because the <span class="strong"><strong><code class="literal">em</code></strong></span> element is an <span class="strong"><strong>inline element</strong></span>. Inline elements do not start new lines; they just go with the flow. In <a class="xref" href="ch04.html#outlines_show_the_structure_of_the_eleme" title="Figure 4-10. The outlines show the structure of the elements in the home page.">Figure 4-10</a>, the inline <span class="strong"><strong><code class="literal">em</code></strong></span> element is outlined in light blue.</p><div class="sidebar"><a id="adding_hidden_comments"></a><div class="sidebar-title">Adding Hidden Comments</div><p>You can leave notes in the source document for yourself and others by marking them up as <span class="strong"><strong>comments</strong></span>. Anything you put between comment tags (<span class="strong"><strong><code class="literal">&lt;!-- --&gt;</code></strong></span>) will not display in the browser and will not have any effect on the rest of the source.</p><a id="pro_id00012"></a><pre class="programlisting"><span class="strong"><strong>&lt;!--</strong></span> This is a comment <span class="strong"><strong>--&gt;</strong></span>
+<span class="strong"><strong>&lt;!--</strong></span> This is a
+  multiple-line comment
+  that ends here. <span class="strong"><strong>--&gt;</strong></span></pre><p>Comments are useful for labeling and organizing long documents, particularly when they are shared by a team of developers. In this example, comments are used to point out the section of the source that contains the navigation.</p><a id="pro_id00013"></a><pre class="programlisting"><span class="strong"><strong>&lt;!-- start global nav --&gt;</strong></span>
+&lt;ul&gt;
+ ...
+&lt;/ul&gt;
+<span class="strong"><strong>&lt;!-- end global nav --&gt;</strong></span></pre><p>Bear in mind that although the browser will not display comments in the web page, readers can see them if they “view source,” so be sure that the comments you leave are appropriate for everyone. It’s probably a good idea just to strip out notes to your fellow developers before the site is published. It cuts some bytes off the file size as well.</p></div></div><div class="sect2" title="Default styles"><div class="titlepage"><div><div><h3 class="title" id="default_styles">Default styles</h3></div></div></div><p>The other thing that you will notice about the marked-up page in <a class="xref" href="ch04.html#home_page_after_the_content_has_been_mar" title="Figure 4-9. The home page after the content has been marked up with HTML elements.">Figure 4-9</a> and <a class="xref" href="ch04.html#outlines_show_the_structure_of_the_eleme" title="Figure 4-10. The outlines show the structure of the elements in the home page.">Figure 4-10</a> is that the browser makes an attempt to give the page some visual hierarchy by making the first-level heading the biggest and boldest thing on the page, with the second-level headings slightly smaller, and so on.</p><p>How does the browser determine what an <span class="strong"><strong><code class="literal">h1</code></strong></span> should look like? It uses a style sheet! All browsers have their own built-in style sheets (called <span class="strong"><strong>user agent style sheets</strong></span> in the spec) that describe the default rendering of elements. The default rendering is similar from browser to browser (for example, <span class="strong"><strong><code class="literal">h1</code></strong></span>s are always big and bold), but there are some variations (long quotes may or may not be indented).</p><p>If you think the <span class="strong"><strong><code class="literal">h1</code></strong></span> is too big and clunky as the browser renders it, just change it with a style sheet rule. Resist the urge to mark up the heading with another element just to get it to look better, for example, using an <span class="strong"><strong><code class="literal">h3</code></strong></span> instead of an <span class="strong"><strong><code class="literal">h1</code></strong></span> so it isn’t as large. In the days before ubiquitous style sheet support, elements were abused in just that way. Now that there are style sheets for controlling the design, you should always choose elements based on how <a id="iddle1163" class="indexterm"></a><a id="iddle1612" class="indexterm"></a><a id="iddle1640" class="indexterm"></a><a id="iddle1995" class="indexterm"></a><a id="iddle2024" class="indexterm"></a><a id="iddle2032" class="indexterm"></a><a id="iddle2810" class="indexterm"></a><a id="iddle3192" class="indexterm"></a>accurately they describe the content, and don’t worry about the browser’s default rendering.</p><p>We’ll fix the presentation of the page with style sheets in a moment, but first, let’s add an image to the page.</p></div></div><div class="sect1" title="Step 4: Add an Image"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="step_4_add_an_image">Step 4: Add an Image</h2></div></div></div><p>What fun is a web page with no image? In <a class="xref" href="ch04.html#exercise_4-4_vertical_line_adding_an_ima" title="Exercise 4-4 | Adding an image">Exercise 4-4 | Adding an image</a>, we’ll add an image to the page using the <span class="strong"><strong><code class="literal">img</code></strong></span> element. Images will be discussed in more detail in <a class="xref" href="ch07.html" title="Chapter 7. Adding Images">Chapter 7</a>, but for now, it gives us an opportunity to introduce two more basic markup concepts: empty elements and attributes.</p><div class="sect2" title="Empty elements"><div class="titlepage"><div><div><h3 class="title" id="empty_elements">Empty elements</h3></div></div></div><p>So far, nearly all of the elements we’ve used in the Black Goose Bistro home page have followed the syntax shown in <a class="xref" href="ch04.html#parts_of_an_html_container_element" title="Figure 4-6. The parts of an HTML container element.">Figure 4-6</a>: a bit of text content surrounded by start and end tags.</p><p>A handful of elements, however, do not have text content because they are used to provide a simple directive. These elements are said to be <span class="strong"><strong>empty</strong></span>. The image element (<span class="strong"><strong><code class="literal">img</code></strong></span>) is an example of such an element; it tells the browser to get an image file from the server and insert it at that spot in the flow of the text. Other empty elements include the line break (<span class="strong"><strong><code class="literal">br</code></strong></span>), thematic breaks (<span class="strong"><strong><code class="literal">hr</code></strong></span>), and elements that provide information about a document but don’t affect its displayed content, such as the <span class="strong"><strong><code class="literal">meta</code></strong></span> element that we used earlier.</p><p><a class="xref" href="ch04.html#empty_element_structure" title="Figure 4-11. Empty element structure.">Figure 4-11</a> shows the very simple syntax of an empty element (compare to <a class="xref" href="ch04.html#parts_of_an_html_container_element" title="Figure 4-6. The parts of an HTML container element.">Figure 4-6</a>). If you are writing an XHTML document, the syntax is slightly different (see the sidebar <a class="xref" href="ch04.html#empty_elements_in_xhtml" title="Empty Elements in XHTML">Empty Elements in XHTML</a>).</p><div class="figure"><a id="empty_element_structure"></a><div class="figure-contents"><div class="mediaobject"><a id="med_id00026"></a><img src="/api/v2/epubs/9781449337513/files/httpatomoreillycomsourceoreillyimages2257989.png" alt="Empty element structure." width="1000" height="284"></div></div><div class="figure-title">Figure 4-11. Empty element structure.</div></div><div class="sidebar"><a id="empty_elements_in_xhtml"></a><div class="sidebar-title">Empty Elements in XHTML</div><p>In XHTML, all elements, including empty elements, must be closed (or <span class="strong"><strong>terminated</strong></span>, to use the proper term). Empty elements are terminated by adding a trailing slash preceded by a space before the closing bracket, like so: <span class="strong"><strong><code class="literal">&lt;img /&gt;</code></strong></span>, <span class="strong"><strong><code class="literal">&lt;br /&gt;</code></strong></span>, <span class="strong"><strong><code class="literal">&lt;meta /&gt;</code></strong></span>, and <span class="strong"><strong><code class="literal">&lt;hr /&gt;</code></strong></span>. Here is the line break example using XHTML syntax.</p><a id="pro_id00014"></a><pre class="programlisting">&lt;p&gt;1005 Gravenstein Highway
+North <span class="strong"><strong>&lt;br /&gt;</strong></span>Sebastopol, CA
+95472&lt;/p&gt;</pre></div></div><div class="sect2" title="Attributes"><div class="titlepage"><div><div><h3 class="title" id="attributes">Attributes</h3></div></div></div><p>Let’s get back to adding an image with the empty <span class="strong"><strong><code class="literal">img</code></strong></span> element. Obviously, an <span class="strong"><strong><code class="literal">&lt;img&gt;</code></strong></span> tag is not very useful by itself—there’s no way to know which image to use. That’s where attributes come in. <span class="strong"><strong>Attributes</strong></span> are instructions that clarify or modify an element. For the <span class="strong"><strong><code class="literal">img</code></strong></span> element, the <span class="strong"><strong><code class="literal">src</code></strong></span> (short for “source”) attribute is required, and specifies the location (URL) of the image file.</p><div class="figure"><a id="img_element_with_attributes"></a><div class="figure-contents"><div class="mediaobject"><a id="med_id00027"></a><img src="/api/v2/epubs/9781449337513/files/httpatomoreillycomsourceoreillyimages2257991.png" alt="An img element with attributes." width="1000" height="394"></div></div><div class="figure-title">Figure 4-12. An <span class="emphasis"><em><code class="literal">img</code></em></span> element with attributes.</div></div><p><a id="iddle1054" class="indexterm"></a><a id="iddle1167" class="indexterm"></a><a id="iddle1222" class="indexterm"></a><a id="iddle3044" class="indexterm"></a><a id="iddle3191" class="indexterm"></a>The syntax for an attribute is as follows:</p><a id="pro_id00015"></a><pre class="programlisting"><span class="strong"><strong>attributename="value"</strong></span></pre><p>Attributes go after the element name, separated by a space. In non-empty elements, attributes go in the opening tag only:</p><a id="pro_id00016"></a><pre class="programlisting">&lt;element <span class="strong"><strong>attributename="value"</strong></span>&gt;
+&lt;element <span class="strong"><strong>attributename="value"</strong></span>&gt;Content&lt;/element&gt;</pre><p>You can also put more than one attribute in an element in any order. Just keep them separated with spaces.</p><a id="pro_id00017"></a><pre class="programlisting">&lt;element <span class="strong"><strong>attribute1="value" attribute2="value"</strong></span>&gt;</pre><p>For another way to look at it, <a class="xref" href="ch04.html#img_element_with_attributes" title="Figure 4-12. An img element with attributes.">Figure 4-12</a> shows an <span class="strong"><strong><code class="literal">img</code></strong></span> element with its required attributes labeled.</p><p>Here’s what you need to know about attributes:</p><div class="itemizedlist"><ul class="itemizedlist"><li class="listitem"><p>Attributes go after the element name in the opening tag only, never in the end tag.</p></li><li class="listitem"><p>There may be several attributes applied to an element, separated by spaces in the opening tag. Their order is not important.</p></li><li class="listitem"><p>Most attributes take values, which follow an equals sign (=). In HTML, some attribute values can be reduced to single descriptive words—for example, the <span class="strong"><strong><code class="literal">checked</code></strong></span> attribute, which makes a checkbox checked when a form loads. In XHTML, however, all attributes must have explicit values (<span class="strong"><strong><code class="literal">checked="checked"</code></strong></span>). You may hear this type of attribute called a <span class="strong"><strong>Boolean attribute</strong></span> because it describes a feature that is either on or off.</p></li><li class="listitem"><p>A value might be a number, a word, a string of text, a URL, or a measurement, depending on the purpose of the attribute. You’ll see examples of all of these throughout this book.</p></li><li class="listitem"><p>Some values don’t have to be in quotation marks in HTML, but XHTML requires them. Many developers like the consistency and tidiness of quotation marks even when authoring HTML. Either single or <a id="iddle2027" class="indexterm"></a><a id="iddle2030" class="indexterm"></a><a id="iddle2811" class="indexterm"></a>double quotation marks are acceptable as long as they are used consistently; however, double quotation marks are the convention. Note that quotation marks in HTML files need to be straight (”) not curly (”).</p></li><li class="listitem"><p>Some attributes are required, such as the <span class="strong"><strong><code class="literal">src</code></strong></span> and <span class="strong"><strong><code class="literal">alt</code></strong></span> attributes in the <span class="strong"><strong><code class="literal">img</code></strong></span> element.</p></li><li class="listitem"><p>The attribute names available for each element are defined in the HTML specifications; in other words, you can’t make up an attribute for an element.</p></li></ul></div><p>Now you should be more than ready to try your hand at adding the <span class="strong"><strong><code class="literal">img</code></strong></span> element with its attributes to the Black Goose Bistro page in the next exercise. We’ll throw a few line breaks in there as well.</p><div class="sidebar"><a id="exercise_4-4_vertical_line_adding_an_ima"></a><div class="sidebar-title">Exercise 4-4 | Adding an image</div><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>If you’re working along, the first thing you’ll need to do is get a copy of the image file on your hard drive so you can see it in place when you open the file locally. The image file is provided in the materials for this chapter. You can also get the image file by saving it right from the sample web page online at <span class="emphasis"><em><a class="ulink" href="http://www.learningwebdesign.com/4e/materials/chapter04/bistro" target="_top">www.learningwebdesign.com/4e/materials/chapter04/bistro</a></em></span>. Right-click (or Ctrl-click on a Mac) on the goose image and select “Save to disk” (or similar) from the pop-up menu as shown in <a class="xref" href="ch04.html#saving_an_image_file_from_a_page_on_the" title="Figure 4-13. Saving an image file from a page on the Web.">Figure 4-13</a>. Name the file <span class="emphasis"><em>blackgoose.png</em></span>. Be sure to save it in the <span class="emphasis"><em>bistro</em></span> folder with <span class="emphasis"><em>index.html</em></span>.</p></li><li class="listitem"><p>Once you have the image, insert it at the beginning of the first-level heading by typing in the <span class="strong"><strong><code class="literal">img</code></strong></span> element and its attributes as shown here:</p><a id="pro_id00018"></a><pre class="programlisting">&lt;h1&gt;<span class="strong"><strong>&lt;img src="blackgoose.png" alt="Black Goose logo"&gt;</strong></span>Black Goose
+Bistro&lt;/h1&gt;</pre><p>The <span class="strong"><strong><code class="literal">src</code></strong></span> attribute provides the name of the image file that should be inserted, and the <span class="strong"><strong><code class="literal">alt</code></strong></span> attribute provides text that should be displayed if the image is not available. Both of these attributes are required in every <span class="strong"><strong><code class="literal">img</code></strong></span> element.</p><div class="figure"><a id="saving_an_image_file_from_a_page_on_the"></a><div class="figure-contents"><div class="mediaobject"><a id="med_id00028"></a><img src="/api/v2/epubs/9781449337513/files/httpatomoreillycomsourceoreillyimages2257993.png.jpg" alt="Saving an image file from a page on the Web." width="1000" height="818"></div></div><div class="figure-title">Figure 4-13. Saving an image file from a page on the Web.</div></div></li><li class="listitem"><p><a id="iddle1249" class="indexterm"></a><a id="iddle1450" class="indexterm"></a><a id="iddle2219" class="indexterm"></a>I’d like the image to appear above the title, so let’s add a line break (<span class="strong"><strong><code class="literal">br</code></strong></span>) after the <span class="strong"><strong><code class="literal">img</code></strong></span> element to start the headline text on a new line.</p><a id="pro_id00019"></a><pre class="programlisting">&lt;h1&gt;&lt;img src="blackgoose.png" alt="Black Goose logo"&gt;<span class="strong"><strong>&lt;br&gt;</strong></span>Black
+Goose Bistro&lt;/h1&gt;</pre></li><li class="listitem"><p>Let’s break up the last paragraph into three lines for better clarity. Drop a <span class="strong"><strong><code class="literal">&lt;br&gt;</code></strong></span> tag at the spots you’d like the line breaks to occur. Try to match the screenshot in <a class="xref" href="ch04.html#black_goose_bistro_page_with_the_logo_im" title="Figure 4-14. The Black Goose Bistro page with the logo image.">Figure 4-14</a>.</p></li><li class="listitem"><p>Now save <span class="emphasis"><em>index.html</em></span> and open or refresh it in the browser window. The page should look like the one shown in <a class="xref" href="ch04.html#black_goose_bistro_page_with_the_logo_im" title="Figure 4-14. The Black Goose Bistro page with the logo image.">Figure 4-14</a>. If it doesn’t, check to make sure that the image file, <span class="emphasis"><em>blackgoose.png</em></span>, is in the same directory as <span class="emphasis"><em>index.html</em></span>. If it is, then check to make sure that you aren’t missing any characters, such as a closing quote or bracket, in the <span class="strong"><strong><code class="literal">img</code></strong></span> element markup.</p><div class="note" title="Note"><h3 class="title"><a id="ch4notenew"></a>Note</h3><p><span class="strong"><strong>YOU TRY IT</strong></span></p><p><span class="emphasis"><em>Add line breaks (br) to the Location and Hours section so your page matches the example in <a class="xref" href="ch04.html#black_goose_bistro_page_with_the_logo_im" title="Figure 4-14. The Black Goose Bistro page with the logo image.">Figure 4-14</a>.</em></span></p></div><div class="figure"><a id="black_goose_bistro_page_with_the_logo_im"></a><div class="figure-contents"><div class="mediaobject"><a id="med_id00029"></a><img src="/api/v2/epubs/9781449337513/files/httpatomoreillycomsourceoreillyimages2257995.png" alt="The Black Goose Bistro page with the logo image." width="1000" height="578"></div></div><div class="figure-title">Figure 4-14. The Black Goose Bistro page with the logo image.</div></div></li></ol></div></div></div></div><div class="sect1" title="Step 5: Change the Look with a Style Sheet"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="step_5_change_the_look_with_a_style_shee">Step 5: Change the Look with a Style Sheet</h2></div></div></div><p>Depending on the content and purpose of your website, you may decide that the browser’s default rendering of your document is perfectly adequate. However, I think I’d like to pretty up the Black Goose Bistro home page a bit to make a good first impression on potential patrons. “Prettying up” is just my way of saying that I’d like to change its presentation, which is the job of Cascading Style Sheets (CSS).</p><p>In <a class="xref" href="ch04.html#exercise_4-5_vertical_line_adding_a_styl" title="Exercise 4-5 | Adding a style sheet">Exercise 4-5 | Adding a style sheet</a>, we’ll change the appearance of the text elements and the page background using some simple style sheet rules. Don’t worry about understanding them all right now; we’ll get into CSS in more detail in <a class="xref" href="pt03.html" title="Part III. CSS for Presentation">Part III</a>. But I want to at least give you a taste of what it means to add a “layer” of presentation onto the structure we’ve created with our markup.</p><div class="sidebar"><a id="exercise_4-5_vertical_line_adding_a_styl"></a><div class="sidebar-title">Exercise 4-5 | Adding a style sheet</div><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p><a id="iddle1926" class="indexterm"></a><a id="iddle2835" class="indexterm"></a><a id="iddle2839" class="indexterm"></a>Open <span class="emphasis"><em>index.html</em></span> if it isn’t open already.</p></li><li class="listitem"><p>We’re going to use the <span class="strong"><strong><code class="literal">style</code></strong></span> element to apply a very simple embedded style sheet to the page. (This is just one of the ways to add a style sheet; the others are covered in <a class="xref" href="ch11.html" title="Chapter 11. Cascading Style Sheets Orientation">Chapter 11</a>.)</p><p>The <span class="strong"><strong><code class="literal">style</code></strong></span> element is placed inside the <span class="strong"><strong><code class="literal">head</code></strong></span> of the document. Start by adding the <span class="strong"><strong><code class="literal">style</code></strong></span> element to the document as shown here:</p><a id="pro_id00020"></a><pre class="programlisting">&lt;head&gt;
+  &lt;meta charset="utf-8"&gt;
+  &lt;title&gt;Black Goose Bistro&lt;/title&gt;
+  <span class="strong"><strong>&lt;style&gt;</strong></span>
+
+  <span class="strong"><strong>&lt;/style&gt;</strong></span>
+&lt;/head&gt;</pre></li><li class="listitem"><p>Now, type the following style rules within the <span class="strong"><strong><code class="literal">style</code></strong></span> element just as you see them here. Don’t worry if you don’t know exactly what is going on (although it is fairly intuitive). You’ll learn all about style rules in <a class="xref" href="pt03.html" title="Part III. CSS for Presentation">Part III</a>.</p><a id="pro_id00021"></a><pre class="programlisting">&lt;style&gt;
+
+body {
+  background-color: #faf2e4;
+  margin: 0 15%;
+  font-family: sans-serif;
+  }
+
+h1 {
+  text-align: center;
+  font-family: serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  border-bottom: 1px solid #57b1dc;
+  margin-top: 30px;
+}
+
+h2 {
+  color: #d1633c;
+  font-size: 1em;
+}
+
+&lt;/style&gt;</pre></li><li class="listitem"><p>Now it’s time to save the file and take a look at it in the browser. It should look like the page in <a class="xref" href="ch04.html#black_goose_bistro_page_after_css_style" title="Figure 4-15. The Black Goose Bistro page after CSS style rules have been applied.">Figure 4-15</a>. If it doesn’t, go over the style sheet code to make sure you didn’t miss a semicolon or a curly bracket.</p><div class="figure"><a id="black_goose_bistro_page_after_css_style"></a><div class="figure-contents"><div class="mediaobject"><a id="med_id00030"></a><img src="/api/v2/epubs/9781449337513/files/httpatomoreillycomsourceoreillyimages2257997.png" alt="The Black Goose Bistro page after CSS style rules have been applied." width="1000" height="715"></div></div><div class="figure-title">Figure 4-15. The Black Goose Bistro page after CSS style rules have been applied.</div></div></li></ol></div></div><p>We’re finished with the Black Goose Bistro page. Not only have you written your first web page, complete with a style sheet, but you’ve also learned about elements, attributes, empty elements, block and inline elements, the basic structure of an HTML document, and the correct use of markup along the way. Not bad for one chapter!</p></div><div class="sect1" title="When Good Pages Go Bad"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="when_good_pages_go_bad">When Good Pages Go Bad</h2></div></div></div><p>The previous demonstration went smoothly, but it’s easy for small things to go wrong when typing out HTML markup by hand. Unfortunately, one missed character can break a whole page. I’m going to break my page on purpose so we can see what happens.</p><p><a id="iddle1016" class="indexterm"></a><a id="iddle1061" class="indexterm"></a><a id="iddle1350" class="indexterm"></a><a id="iddle1953" class="indexterm"></a><a id="iddle3038" class="indexterm"></a>What if I had forgotten to type the slash (<span class="strong"><strong><code class="literal">/</code></strong></span>) in the closing emphasis tag (<span class="strong"><strong><code class="literal">&lt;/em&gt;</code></strong></span>)? With just one character out of place (<a class="xref" href="ch04.html#when_a_slash_is_omittedcomma_the_browser" title="Figure 4-16. When a slash is omitted, the browser doesn’t know when the element ends, as is the case in this example.">Figure 4-16</a>), the remainder of the document displays in emphasized (italic) text. That’s because without that slash, there’s nothing telling the browser to turn “off” the emphasized formatting, so it just keeps going.</p><div class="note" title="Note"><h3 class="title"><a id="ch04note04"></a>Note</h3><p><span class="emphasis"><em>Omitting the slash in the closing tag (or even omitting the closing tag itself) for block elements, such as headings or paragraphs, may not be so dramatic. Browsers interpret the start of a new block element to mean that the previous block element is finished.</em></span></p></div><p>I’ve fixed the slash, but this time, let’s see what would have happened if I had accidentally omitted a bracket from the end of the first <span class="strong"><strong><code class="literal">&lt;h2&gt;</code></strong></span> tag (<a class="xref" href="ch04.html#missing_end_bracket_makes_all_the_follow" title="Figure 4-17. A missing end bracket makes all the following content part of the tag, and therefore it doesn’t display.">Figure 4-17</a>).</p><p>See how the headline is missing? That’s because without the closing tag bracket, the browser assumes that all the following text—all the way up to the next closing bracket (<span class="strong"><strong><code class="literal">&gt;</code></strong></span>) it finds—is part of the <span class="strong"><strong><code class="literal">&lt;h2&gt;</code></strong></span> opening tag. Browsers don’t display any text within a tag, so my heading disappeared. The browser just ignored the foreign-looking element name and moved on to the next element.</p><div class="figure"><a id="when_a_slash_is_omittedcomma_the_browser"></a><div class="figure-contents"><div class="mediaobject"><a id="med_id00031"></a><img src="/api/v2/epubs/9781449337513/files/httpatomoreillycomsourceoreillyimages2257999.png" alt="When a slash is omitted, the browser doesn’t know when the element ends, as is the case in this example." width="1000" height="849"></div></div><div class="figure-title">Figure 4-16. When a slash is omitted, the browser doesn’t know when the element ends, as is the case in this example.</div></div><p>Making mistakes in your first HTML documents and fixing them is a great way to learn. If you write your first pages perfectly, I’d recommend fiddling with the code as I have here to see how the browser reacts to various changes. This can be extremely useful in troubleshooting pages later. I’ve listed some common problems in the sidebar <a class="xref" href="ch04.html#having_problemsquestion_mark" title="Having Problems?">Having Problems?</a> Note that these problems are not specific to beginners. Little stuff like this goes wrong all the time, even for the pros.</p><div class="figure"><a id="missing_end_bracket_makes_all_the_follow"></a><div class="figure-contents"><div class="mediaobject"><a id="med_id00032"></a><img src="/api/v2/epubs/9781449337513/files/httpatomoreillycomsourceoreillyimages2258001.png" alt="A missing end bracket makes all the following content part of the tag, and therefore it doesn’t display." width="1000" height="634"></div></div><div class="figure-title">Figure 4-17. A missing end bracket makes all the following content part of the tag, and therefore it doesn’t display.</div></div></div><div class="sect1" title="Validating Your Documents"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="validating_your_documents">Validating Your Documents</h2></div></div></div><p>One way that professional web developers catch errors in their markup is to validate their documents. What does that mean? To <span class="strong"><strong>validate</strong></span> a document is to check your markup to make sure that you have abided by all the rules of whatever version of HTML you are using (there are more than one, as we’ll discuss in <a class="xref" href="ch10.html" title="Chapter 10. What’s Up, HTML5?">Chapter 10</a>). Documents that are error-free are said to be valid. It is strongly recommended that you validate your documents, especially for professional sites. Valid documents are more consistent on a variety of browsers, they display more quickly, and they are more accessible.</p><p><a id="iddle1331" class="indexterm"></a><a id="iddle1542" class="indexterm"></a><a id="iddle1687" class="indexterm"></a><a id="iddle1939" class="indexterm"></a><a id="iddle2682" class="indexterm"></a><a id="iddle3040" class="indexterm"></a><a id="iddle3092" class="indexterm"></a>Right now, browsers don’t require documents to be valid (in other words, they’ll do their best to display them, errors and all), but any time you stray from the standard you introduce unpredictability in the way the page is displayed or handled by alternative devices.</p><p>So how do you make sure your document is valid? You could check it yourself or ask a friend, but humans make mistakes, and you aren’t really expected to memorize every minute rule in the specifications. Instead, you use a <span class="strong"><strong>validator</strong></span>, software that checks your source against the HTML version you specify. These are some of the things validators check for:</p><div class="itemizedlist"><ul class="itemizedlist"><li class="listitem"><p>The inclusion of a DOCTYPE declaration. Without it the validator doesn’t know which version of HTML or XHTML to validate against.</p></li><li class="listitem"><p>An indication of the character encoding for the document.</p></li><li class="listitem"><p>The inclusion of required rules and attributes.</p></li><li class="listitem"><p>Non-standard elements.</p></li><li class="listitem"><p>Mismatched tags.</p></li><li class="listitem"><p>Nesting errors.</p></li><li class="listitem"><p>Typos and other minor errors.</p></li></ul></div><p>Developers use a number of helpful tools for checking and correcting errors in HTML documents. The W3C offers a free online validator at <span class="emphasis"><em><a class="ulink" href="http://validator.w3.org" target="_top">validator.w3.org</a></em></span>. For HTML5 documents, use the online validator located at <span class="emphasis"><em>html5.validator.nu</em></span>. Browser developer tools like the Firebug plug-in for Firefox or the built-in developer tools in Safari and Chrome also have validators so you can check your work on the fly. If you use Dreamweaver to create your sites, there is a validator built into that as well.</p><div class="sidebar"><a id="having_problemsquestion_mark"></a><div class="sidebar-title">Having Problems?</div><p>The following are some typical problems that crop up when you are creating web pages and viewing them in a browser:</p><div class="variablelist"><dl><dt><span class="term"><span class="emphasis"><em>I’ve changed my document, but when I reload the page in my browser, it looks exactly the same.</em></span></span></dt><dd><p>It could be you didn’t save your document before reloading, or you may have saved it in a different directory.</p></dd><dt><span class="term"><span class="emphasis"><em>Half my page disappeared.</em></span></span></dt><dd><p>This could happen if you are missing a closing bracket (<span class="strong"><strong><code class="literal">&gt;</code></strong></span>) or a quotation mark within a tag. This is a common error when you’re writing HTML by hand.</p></dd><dt><span class="term"><span class="emphasis"><em>I put in a graphic using the</em></span> <span class="strong"><strong><code class="literal">img</code></strong></span> <span class="emphasis"><em>element, but all that shows up is a broken image icon.</em></span></span></dt><dd><p>The broken graphic could mean a couple of things. First, it might mean that the browser is not finding the graphic. Make sure that the URL to the image file is correct. (We’ll discuss URLs further in <a class="xref" href="ch06.html" title="Chapter 6. Adding Links">Chapter 6</a>.) Make sure that the image file is actually in the directory you’ve specified. If the file is there, make sure it is in one of the formats that web browsers can display (GIF, JPEG, or PNG) and that it is named with the proper suffix (<span class="emphasis"><em>.gif</em></span>, <span class="emphasis"><em>.jpeg</em></span> or <span class="emphasis"><em>.jpg</em></span>, or <span class="emphasis"><em>.png</em></span>, respectively).</p></dd></dl></div></div></div><div class="sect1" title="Test Yourself"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="test_yourself-id00012">Test Yourself</h2></div></div></div><p>Now is a good time to make sure you understand the basics of markup. Use what you’ve learned in this chapter to answer the following questions. Answers are in <a class="xref" href="apa.html" title="Appendix A. Answers">Appendix A</a>.</p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>What is the difference between a tag and an element?</p></li><li class="listitem"><p>Write out the recommended minimal structure of an HTML5 document.</p></li><li class="listitem"><p><a id="iddle1216" class="indexterm"></a><a id="iddle1614" class="indexterm"></a><a id="iddle1894" class="indexterm"></a><a id="iddle1952" class="indexterm"></a><a id="iddle1955" class="indexterm"></a><a id="iddle2320" class="indexterm"></a><a id="iddle2658" class="indexterm"></a><a id="iddle2954" class="indexterm"></a>Indicate whether each of these filenames is an acceptable name for a web document by circling “Yes” or “No.” If it is not acceptable, provide the reason why.</p><div class="informaltable"><table style="border-collapse: collapse; border-top: 0.5pt solid ; border-bottom: 0.5pt solid ; border-left: 0.5pt solid ; border-right: 0.5pt solid ; "><colgroup><col class="c1"><col class="c2"><col class="c3"></colgroup><tbody><tr><td style="vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>a. <span class="emphasis"><em>Sunflower.html</em></span></p></td><td style="vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Yes</p></td><td style="vertical-align: top; border-bottom: 0.5pt solid ; "><p>No</p></td></tr><tr><td style="vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>b. <span class="emphasis"><em>index.doc</em></span></p></td><td style="vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Yes</p></td><td style="vertical-align: top; border-bottom: 0.5pt solid ; "><p>No</p></td></tr><tr><td style="vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>c. <span class="emphasis"><em>cooking home page.html</em></span></p></td><td style="vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Yes</p></td><td style="vertical-align: top; border-bottom: 0.5pt solid ; "><p>No</p></td></tr><tr><td style="vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>d. <span class="emphasis"><em>Song_Lyrics.html</em></span></p></td><td style="vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Yes</p></td><td style="vertical-align: top; border-bottom: 0.5pt solid ; "><p>No</p></td></tr><tr><td style="vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>e. <span class="emphasis"><em>games/rubix.html</em></span></p></td><td style="vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Yes</p></td><td style="vertical-align: top; border-bottom: 0.5pt solid ; "><p>No</p></td></tr><tr><td style="vertical-align: top; border-right: 0.5pt solid ; "><p>f. <span class="emphasis"><em>%whatever.html</em></span></p></td><td style="vertical-align: top; border-right: 0.5pt solid ; "><p>Yes</p></td><td style="vertical-align: top; "><p>No</p></td></tr></tbody></table></div></li><li class="listitem"><p>All of the following markup examples are incorrect. Describe what is wrong with each one, and then write it correctly.</p><div class="orderedlist"><ol class="orderedlist" type="a"><li class="listitem"><p><code class="literal">&lt;img "birthday.jpg"&gt;</code></p></li><li class="listitem"><p><code class="literal">&lt;i&gt;Congratulations!&lt;i&gt;</code></p></li><li class="listitem"><p><code class="literal">&lt;a href="file.html"&gt;linked text&lt;/a href="file.html"&gt;</code></p></li><li class="listitem"><p><code class="literal">&lt;p&gt;This is a new paragraph&lt;\p&gt;</code></p></li></ol></div></li><li class="listitem"><p>How would you mark up this comment in an HTML document so that it doesn’t display in the browser window?</p><a id="pro_id00022"></a><pre class="programlisting">product list begins here</pre></li></ol></div></div><div class="sect1" title="Element Review: Document Structure"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="element_review_document_structure">Element Review: Document Structure</h2></div></div></div><p>This chapter introduced the elements that establish the structure of the document. The remaining elements introduced in the exercises will be treated in more depth in the following chapters.</p><div class="informaltable"><table style="border-collapse: collapse; border-top: 0.5pt solid ; border-bottom: 0.5pt solid ; border-left: 0.5pt solid ; border-right: 0.5pt solid ; "><colgroup><col class="c1"><col class="c2"></colgroup><thead><tr><td style="vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Element</p></td><td style="vertical-align: top; border-bottom: 0.5pt solid ; "><p>Description</p></td></tr></thead><tbody><tr><td style="vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p><code class="literal">body</code></p></td><td style="vertical-align: top; border-bottom: 0.5pt solid ; "><p>Identifies the body of the document that holds the content</p></td></tr><tr><td style="vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p><code class="literal">head</code></p></td><td style="vertical-align: top; border-bottom: 0.5pt solid ; "><p>Identifies the head of the document that contains information about the document</p></td></tr><tr><td style="vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p><code class="literal">html</code></p></td><td style="vertical-align: top; border-bottom: 0.5pt solid ; "><p>The root element that contains all the other elements</p></td></tr><tr><td style="vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p><code class="literal">meta</code></p></td><td style="vertical-align: top; border-bottom: 0.5pt solid ; "><p>Provides information about the document</p></td></tr><tr><td style="vertical-align: top; border-right: 0.5pt solid ; "><p><code class="literal">title</code></p></td><td style="vertical-align: top; "><p>Gives the page a title</p></td></tr></tbody></table></div></div></section></div>
+    </div>
+    
+    <section class="t-bottom-cta bottom-cta bottom-cta-book free-chapter">
+  <p>Get <em>Learning Web Design, 4th Edition</em> now with the O’Reilly <span class="nowrap">learning platform.</span></p>
+  <p>O’Reilly members experience books, live events, courses curated by job role, and more from O’Reilly and <span class="nowrap">nearly 200 top publishers.</span></p>
+
+  <div class="controls">
+      <a href="https://learning.oreilly.com/p/register/" class="button-primary" data-ga-label="Bottom CTA">Start your free trial</a>
+  </div>
+</section>
+
+</div>
+
+
+</section>
+
+
+
+  </div>
+</main>
+
+
+  <footer id="footer" class="footer">
+  <div class="content">
+    <div class="footer-main" aria-label="company info">
+      <div class="footer-mainLeft">
+        <div class="footer-mainLeftOne">
+          <div class="footer-approach">
+            <h2 class="footer-header"><a href="https://www.oreilly.com/about/">About O’Reilly</a></h2>
+            <ul class="footer-links">
+              <li><a href="https://www.oreilly.com/work-with-us.html">Teach/write/train</a></li>
+              <li><a href="https://www.oreilly.com/careers/">Careers</a></li>
+              <li><a href="https://www.oreilly.com/press/">Press releases</a></li>
+              <li><a href="https://www.oreilly.com/press/media-coverage.html">Media coverage</a></li>
+              <li><a href="https://www.oreilly.com/partner/signup.csp">Community partners</a></li>
+              <li><a href="https://www.oreilly.com/affiliates/">Affiliate program</a></li>
+              <li><a href="https://www.oreilly.com/online-learning/rfp.html">Submit an RFP</a></li>
+              <li><a href="https://www.oreilly.com/diversity/">Diversity</a></li>
+              <li><a href="https://www.oreilly.com/content-marketing-solutions.html" id="footerSponsorshipLink">O’Reilly for marketers</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-mainLeftTwo">
+          <div class="footer-contact">
+            <h2 class="footer-header"><a href="https://www.oreilly.com/online-learning/support/">Support</a></h2>
+
+            <ul class="footer-links">
+              <li><a href="https://www.oreilly.com/about/contact.html">Contact us</a></li>
+              <li><a href="https://www.oreilly.com/emails/newsletters/">Newsletters</a></li>
+              <li><a href="https://www.oreilly.com/privacy.html">Privacy policy</a></li>
+            </ul>
+          
+            <a href="https://twitter.com/oreillymedia" target="_blank"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 400 400" style="enable-background:new 0 0 400 400;" xml:space="preserve"><style type="text/css">.st0{fill:#ee0000;}.st1{fill:#FFFFFF;}</style><g id="Red"><circle class="st0" cx="200" cy="200" r="200"/></g><g id="Logo__x2014__FIXED"><path class="st1" d="M163.4,305.5c88.7,0,137.2-73.5,137.2-137.2c0-2.1,0-4.2-0.1-6.2c9.4-6.8,17.6-15.3,24.1-25 c-8.6,3.8-17.9,6.4-27.7,7.6c10-6,17.6-15.4,21.2-26.7c-9.3,5.5-19.6,9.5-30.6,11.7c-8.8-9.4-21.3-15.2-35.2-15.2 c-26.6,0-48.2,21.6-48.2,48.2c0,3.8,0.4,7.5,1.3,11c-40.1-2-75.6-21.2-99.4-50.4c-4.1,7.1-6.5,15.4-6.5,24.2 c0,16.7,8.5,31.5,21.5,40.1c-7.9-0.2-15.3-2.4-21.8-6c0,0.2,0,0.4,0,0.6c0,23.4,16.6,42.8,38.7,47.3c-4,1.1-8.3,1.7-12.7,1.7 c-3.1,0-6.1-0.3-9.1-0.9c6.1,19.2,23.9,33.1,45,33.5c-16.5,12.9-37.3,20.6-59.9,20.6c-3.9,0-7.7-0.2-11.5-0.7 C110.8,297.5,136.2,305.5,163.4,305.5"/></g></svg></a>
+            <a href="https://www.linkedin.com/company/oreilly-media" target="_blank"><svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.25 32.25"><defs><style>.cls-1{fill:#E00;fill-rule:evenodd;}</style></defs><title>linkedin-logo</title><path class="cls-1" d="M17.43,13.53v0l0,0ZM16.12,0A16.13,16.13,0,1,0,32.25,16.12,16.12,16.12,0,0,0,16.12,0ZM11.77,22.92H8.12v-11h3.65ZM9.94,10.44h0a1.89,1.89,0,0,1-2-1.89A1.91,1.91,0,0,1,10,6.65a1.9,1.9,0,1,1,0,3.79Zm15,12.48H21.28V17.05c0-1.48-.53-2.49-1.85-2.49a2,2,0,0,0-1.88,1.34,2.63,2.63,0,0,0-.12.89v6.13H13.79s.05-10,0-11h3.64V13.5a3.63,3.63,0,0,1,3.29-1.82c2.4,0,4.21,1.57,4.21,4.95Z"/></svg></a>
+            <a href="https://www.youtube.com/user/OreillyMedia" target="_blank"><svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32.25 32.25"><defs><style>.cls-1{fill:#E00;fill-rule:evenodd;}</style></defs><title>youtube-logo</title><path class="cls-1" d="M18.35,18.68a.89.89,0,0,0-.86.63V16.94h-1v7.59h1v-.59a.92.92,0,0,0,.89.74c.52,0,.86-.36,1-1.07a8.56,8.56,0,0,0,.14-1.9,10.47,10.47,0,0,0-.12-1.93C19.21,19.05,18.87,18.68,18.35,18.68Zm.09,4.14c-.05.52-.2.77-.45.77s-.43-.21-.49-.63a7.22,7.22,0,0,1,0-1c0-.72,0-1.14,0-1.26.07-.58.23-.88.51-.88s.4.27.46.79c0,.09,0,.47,0,1.13S18.46,22.71,18.44,22.82ZM8.61,18.19H9.86v6.34H11V18.19H12.2V16.94H8.61Zm7.71-6.12c.27,0,.43-.22.49-.66,0-.09,0-.45,0-1.07V9.78c0-.58,0-.93,0-1-.07-.43-.23-.65-.48-.65s-.41.19-.48.57a8.79,8.79,0,0,0,0,1v.53c0,.71,0,1.09,0,1.16C15.88,11.82,16.05,12.07,16.32,12.07Zm-1.74,10.4a2.92,2.92,0,0,1-.06.71c-.07.25-.2.37-.4.37s-.32-.11-.38-.34a2.63,2.63,0,0,1-.05-.66V18.83h-1v4.48c0,.91.33,1.37,1,1.37A1,1,0,0,0,14.6,24v.57h1v-5.7h-1Zm7.1-3.79a1.35,1.35,0,0,0-1.22.59,2.48,2.48,0,0,0-.3,1.07c0,.23,0,.61,0,1.16s0,1.13,0,1.37a2.93,2.93,0,0,0,.35,1.27,1.25,1.25,0,0,0,1.14.54,1.36,1.36,0,0,0,1.13-.45,2.29,2.29,0,0,0,.37-1.43s0-.07,0-.11v-.12h-1c0,.75-.17,1.12-.51,1.12s-.38-.18-.45-.56a4.68,4.68,0,0,1-.06-.9c0-.18,0-.31,0-.37h2v-.43a4.86,4.86,0,0,0-.3-2.11A1.28,1.28,0,0,0,21.68,18.68ZM22.15,21h-1c0-.05,0-.11,0-.16v-.08a1.64,1.64,0,0,1,.11-.8.39.39,0,0,1,.38-.23.42.42,0,0,1,.43.33,2.32,2.32,0,0,1,.07.7Zm-6-21A16.13,16.13,0,1,0,32.25,16.12,16.12,16.12,0,0,0,16.12,0Zm2.51,7.2h1V11a2.52,2.52,0,0,0,.06.66c.06.23.18.34.38.34s.34-.12.41-.37a3.76,3.76,0,0,0,.05-.71V7.2h1v5.74h-1v-.57a1,1,0,0,1-.93.72c-.66,0-1-.46-1-1.38ZM15,8a1.29,1.29,0,0,1,1.33-.92A1.3,1.3,0,0,1,17.65,8a6.77,6.77,0,0,1,.23,2.1,6.77,6.77,0,0,1-.23,2.1,1.3,1.3,0,0,1-1.32.92A1.29,1.29,0,0,1,15,12.17a6.77,6.77,0,0,1-.23-2.1A6.86,6.86,0,0,1,15,8ZM11.45,5.3l.89,2.87.88-2.87H14.4L12.88,9.7v3.24h-1.1V9.7L10.24,5.3ZM24.93,23.91a3,3,0,0,1-3,3h-12a3,3,0,0,1-3-3V18.05a3,3,0,0,1,3-3h12a3,3,0,0,1,3,3Z"/></svg></a>
+          </div>
+
+          <div class="footer-international">
+            <h2 class="footer-header">International</h2>
+
+            <ul class="footer-links">
+              <li><a href="https://www.oreilly.com/anz/">Australia &amp; New Zealand</a></li>
+              <li><a href="https://oreilly.hk/">Hong Kong &amp; Taiwan</a></li>
+              <li><a href="https://oreillylearning.in/">India</a></li>
+              <li><a href="https://oreilly.id/">Indonesia</a></li>
+              <li><a href="https://www.oreilly.co.jp/index.shtml">Japan</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-download" id="download-info">
+        <h2 class="footer-header">Download the O’Reilly App</h2>
+        <p>Take O’Reilly with you and learn anywhere, anytime on your phone <span class="nowrap">and tablet.</span></p>
+
+        <div class="footer-downloadLinks">
+          <a href="https://itunes.apple.com/us/app/safari-to-go/id881697395"><img src="https://cdn.oreillystatic.com/oreilly/images/app-store-logo.png" alt="Apple app store" /></a>
+          <a href="https://play.google.com/store/apps/details?id=com.safariflow.queue"><img src="https://cdn.oreillystatic.com/oreilly/images/google-play-logo.png"  alt="Google play store" /></a>
+        </div>
+      </div>
+
+      <div class="footer-download" id="tv-info">
+        <h2 class="footer-header">Watch on your big screen</h2>
+        <p>View all O’Reilly videos, Superstream events, and Meet the Expert sessions on your <span class="nowrap">home TV.</span></p>
+
+        <div class="footer-downloadLinks">
+          <a href="https://channelstore.roku.com/details/c8a2d0096693eb9455f6ac165003ee06/oreilly"><img src="https://cdn.oreillystatic.com/oreilly/images/roku-tv-logo.png" alt="Roku Payers and TVs" /></a>
+          <a href="https://www.amazon.com/OReilly-Media-Inc/dp/B087YYHL5C/ref=sr_1_2?dchild=1&keywords=oreilly&qid=1604964116&s=mobile-apps&sr=1-2"><img src="https://cdn.oreillystatic.com/oreilly/images/amazon-appstore-logo.png"  alt="Amazon appstore" /></a>
+        </div>
+      </div>
+
+      <div class="footer-donotsell" id="donotsell-info">
+        <h2 class="footer-header"><a href="https://www.oreilly.com/privacy.html?donotsell=show">Do not sell my personal information</a></h2>
+      </div>
+    </div>
+
+    <div class="footer-subfooter">
+
+      <a href="https://www.oreilly.com" title="home page" aria-current="page">
+        <img 
+        class="footer-subfooterLogo" 
+        id="footer-subfooterLogo"
+        src="https://cdn.oreillystatic.com/images/sitewide-headers/oreilly_logo_mark_red.svg" 
+        onerror="this.src='https://cdn.oreillystatic.com/images/sitewide-headers/oreilly_logo_mark_red_@2x.png'; this.onerror=null;" 
+        alt="O'Reilly home">
+      </a>
+
+      <p>&copy; 2023, O’Reilly Media, Inc. All trademarks and registered trademarks appearing on oreilly.com are the property of their respective owners.</p>
+      
+      
+
+      <p><a href="https://www.oreilly.com/terms/">Terms of service</a> • <a href="https://www.oreilly.com/privacy.html">Privacy policy</a> • <a href="https://www.oreilly.com/about/editorial_independence.html">Editorial independence</a></p>
+    </div>
+
+  </div>
+</footer>
+
+
+
+  <div class="exitIntentOverlay" id="exitIntentOverlay">
+    <div class="exitIntentOverlay-contents">
+      <div class="exitIntentOverlay-columns">
+        <div class="exitIntentOverlay-text">
+          <h2>Don’t leave <span class="nowrap">empty-handed</span></h2>
+
+          <p>Get Mark Richards’s <em>Software Architecture Patterns</em> ebook to better understand how to design components—and how they should interact.</p>
+
+          <h3>It’s yours, free.</h3>
+
+          <a class="exitIntentOverlay-cta" href="https://get.oreilly.com/ind_software-architecture-patterns.html">Get it now</a>
+        </div>
+
+        <figure class="exitIntentOverlay-figure"><img src="https://cdn.oreillystatic.com/oreilly/images/report-software-architecture-patterns-553x420.jpg" alt="Cover of Software Architecture Patterns"></figure>
+      </div>
+
+      <button class="exitIntentOverlay-close">Close</button>
+    </div>
+  </div>
+  
+
+  <div class="exitIntentOverlay2" id="exitIntentOverlay2">
+    <div class="exitIntentOverlay-contents">
+      <div class="exitIntentOverlay-columns">
+        <div class="exitIntentOverlay-text">
+          <h2>Check it out now <span class="nowrap">on O’Reilly</span></h2>
+
+          <p>Dive in for free with a 10-day trial of the O’Reilly learning platform—then explore all the other resources our members count on to build skills and solve problems <span class="nowrap">every day.</span></p>
+
+          <a id="exitIntentOverlay2StartYourFreeTrial" class="exitIntentOverlay-cta" href="https://www.oreilly.com/start-trial/">Start your free trial</a>
+
+          <a class="exitIntentOverlay-cta" href="https://learning.oreilly.com/signup/">Become a member now</a>
+        </div>
+
+        <figure class="exitIntentOverlay-figure"><img src="https://cdn.oreillystatic.com/oreilly/images/laptop-flat-topics-ml-1124x638.png" alt=""></figure>
+      </div>
+
+      <button class="exitIntentOverlay-close">Close</button>
+    </div>
+  </div>
+
+
+
+
+
+
+<script>
+  var g = {
+    
+    position_cache: {},
+    title: "Learning Web Design, 4th Edition",
+    author_list: "Jennifer Robbins",
+    format: "book",
+    source: "application/epub+zip",
+    is_system_book: true,
+    is_public: true,
+    loaded_from_server: true,
+    allow_scripts: false,
+    has_mathml: false
+    
+  };
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({
+    'product.title': "Learning Web Design, 4th Edition",
+    'product.type': "book",
+    'product.identifier': "9781449337513",
+    'content.identifier': "9781449337513/ch04.html",
+    'content.publisher': "O'Reilly Media, Inc.",
+    'content.free': "no",
+    //
+    'content.subdirectory': "none",
+    'content.subTopic': "none",
+    'content.parentTopic': "none",
+    'content.formatType': "book-chapter",
+    'content.author': "Jennifer Robbins",
+    'content.releaseDate': "2012-08-14",
+    'content.title': "4. Creating a Simple Page: (HTML Overview)",
+  });
+</script>
+
+<script>
+  // Datadog RUM integration to measure performance and Core Web Vitals
+  // https://docs.datadoghq.com/real_user_monitoring/browser/#overview
+  // https://web.dev/vitals/
+  (function(h,o,u,n,d) {
+    h=h[d]=h[d]||{q:[],onReady:function(c){h.q.push(c)}}
+    d=o.createElement(u);d.async=1;d.src=n
+    n=o.getElementsByTagName(u)[0];n.parentNode.insertBefore(d,n)
+  })(window,document,'script','https://www.datadoghq-browser-agent.com/datadog-rum.js','DD_RUM')
+  DD_RUM.onReady(function() {
+    DD_RUM.init({
+      clientToken: 'pub1221d36d3b6dfda5f3c3b7ed22e3b6af',
+      applicationId: '291bce39-f950-4fc6-a610-10abfead0661',
+      site: 'datadoghq.com',
+      service:'anybird',
+      env:'production',
+      // Specify a version number to identify the deployed version of your application in Datadog 
+      // version: '1.0.0',
+      sampleRate: 10,
+      trackInteractions: true,
+    })
+  })
+</script>
+
+
+
+
+
+
+<script src="/library/view/static/CACHE/js/output.ebb6f953bc86.js"></script>
+
+
+<noscript> 
+  <iframe src="//www.googletagmanager.com/ns.html?id=GTM-5P4V6Z"
+          height="0" width="0"
+          style="display:none;visibility:hidden">
+  </iframe>
+</noscript>
+
+
+<script async defer src="/library/view/pageview.js"></script>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+<script src="https://cdn.oreillystatic.com/assets/js/anybird/promotion.js"></script>
+
+
+<script>
+  //Exit intent overlay scripts
+
+  //Setter and getter for exit intent cookie
+  const ExitIntentCookieService = {
+    setCookie(name, value, days) {
+      let expires = '';
+  
+      if (days) {
+        const date = new Date();
+        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+        expires = '; expires=' + date.toUTCString();
+      }
+  
+      document.cookie = name + '=' + (value || '')  + expires + ';';
+    },
+  
+    getCookie(name) {
+      const cookies = document.cookie.split(';');
+  
+      for (const cookie of cookies) {
+        if (cookie.indexOf(name + '=') > -1) {
+          return cookie.split('=')[1];
+        }
+      }
+  
+      return null;
+    }
+  };
+  
+  //When a user clicks outside overlay or close icon or hits escape key
+  //close exit intent overlay 
+  const exit = e => {
+    const shouldExit =
+      [...e.target.classList].includes('exitIntentOverlay') || // user clicks on overlay
+      [...e.target.classList].includes('exitIntentOverlay2') || // user clicks on overlay2
+      e.target.className === 'exitIntentOverlay-close' || // user clicks on the close icon
+      e.keyCode === 27; // user hits escape
+  
+    if (shouldExit) {
+      document.querySelector('.exitIntentOverlay').classList.remove('visible');
+      document.querySelector('.exitIntentOverlay2').classList.remove('visible');
+    }
+  };
+  
+  //When a user's cursor leaves the document
+  //show exit intent overlay 
+  const mouseEvent = e => {
+    const shouldShowExitIntent = 
+      !e.toElement && 
+      !e.relatedTarget &&
+      e.clientY < 10;
+  
+    if (shouldShowExitIntent) {
+      document.removeEventListener('mouseout', mouseEvent);
+      
+      if (exitIntentCookieValue === null) {
+        //Set value of exitIntentCookieValue
+        exitIntentCookieValue = '1';
+
+        //make exitIntentOverlay visible
+        document.querySelector('.exitIntentOverlay').classList.add('visible');
+
+        //Send tracking for exit intent overlay impression
+        window.dataLayer.push({
+          'event': 'eventTracker',
+          'eventCat': 'marketing',
+          'eventAct': 'exit intent imp',
+          'eventLbl': 'modal 1'
+        });
+      } else if (exitIntentCookieValue === '1') {
+        //Set value of exitIntentCookieValue
+        exitIntentCookieValue = '2';
+
+        //make exitIntentOverlay2 visible
+        document.querySelector('.exitIntentOverlay2').classList.add('visible');
+        
+        //Send tracking for exit intent overlay impression
+        window.dataLayer.push({
+          'event': 'eventTracker',
+          'eventCat': 'marketing',
+          'eventAct': 'exit intent imp',
+          'eventLbl': 'modal 2'
+        });
+
+        //Add click tracking for "start your free trial" button
+        const StartYourFreeTrial = document.querySelector("#exitIntentOverlay2StartYourFreeTrial");
+        StartYourFreeTrial.addEventListener('click', function(e) {
+          window.dataLayer.push({
+            'event': 'eventTracker',
+            'eventCat': 'marketing',
+            'eventAct': 'exit intent',
+            'eventLbl': 'start your free trial'
+          });
+        });
+      }
+
+      //Set exit intent cookie
+      ExitIntentCookieService.setCookie('libraryExitIntentShown', exitIntentCookieValue, 30);
+    }
+  };
+  
+  //If exit intentcookie doesn't exist,
+  //then initialize exit intent overlay scripts
+  var exitIntentCookieValue = ExitIntentCookieService.getCookie('libraryExitIntentShown');
+  if (exitIntentCookieValue === null || exitIntentCookieValue === '1') {
+    setTimeout(() => {
+      document.addEventListener('mouseout', mouseEvent);
+      document.addEventListener('keydown', exit);
+      document.querySelector('.exitIntentOverlay').addEventListener('click', exit);
+      document.querySelector('.exitIntentOverlay2').addEventListener('click', exit);
+    }, 0);
+  }
+</script>
+
+
+<script>
+  jQuery(document).ready(function($) {
+    //Toggle isActive and mobileHidden classes for mobileNavButton
+    $('nav #mobileNavButton').on('click', function() {
+      var expanded = $(this).attr('aria-expanded') === 'true' || false;
+      $(this).attr('aria-expanded', !expanded);
+      $(this).toggleClass("isActive");
+      $(this).next().toggleClass("mobileHidden");
+    });
+
+    //Toggle isFocused class for keyboard navigation of submenus
+    $('nav #menuList .menuList-subItem a').each(function(navItem) {
+      $(this).on('focus', function() {
+        $(this).parent().parent().toggleClass('isFocused');
+      });
+      $(this).on('blur', function() {
+        $(this).parent().parent().toggleClass('isFocused');
+      });
+    });
+
+    //Toggle mobileHidden class accordian elements
+    $('.mobileAccordian').each(function() {
+      var $btn = $(this).find('button');
+      var $target =  $(this).next();
+      $btn.on('click', function() {
+        var expanded = $btn.attr('aria-expanded') === 'true' || false;
+
+        $btn.attr('aria-expanded', !expanded);
+        $target.toggleClass("mobileHidden");
+      });
+    });
+
+
+    //Hide title page's long description behind disclosure button
+    var titleDescriptionExtra = $('.title-description p:first-of-type').nextAll(':nth-child(3)').nextAll();
+    titleDescriptionExtra.wrapAll('<div id="titleDescriptionExtra" />');
+    if (titleDescriptionExtra.length > 0) {
+      $('#titleDescriptionExtra').toggle();
+      $('#showMoreDescription').removeClass('hidden');
+      $('#showMoreDescription button').on('click', function() {
+        $(this).toggleClass('more');
+        $('#titleDescriptionExtra').slideToggle();
+      });
+    }
+
+    //Hide title page's long TOC behind disclosure button
+    var titleTOCShort = $('.sbo-reader-title .detail-toc').find('li').slice(0,4);
+    var titleTOCExtra = $('.sbo-reader-title .detail-toc').find('li').not(titleTOCShort);
+    if (titleTOCExtra.length > 0) {
+      titleTOCExtra.toggle();
+      $('#showMoreTOC').removeClass('hidden');
+      $('#showMoreTOC button').on('click', function() {
+        $(this).toggleClass('more');
+        titleTOCExtra.toggle();
+      });
+    }
+
+    //Hide product information on page load
+    $('#product-information').toggle();
+    $('#title-tabs button').on('click', function() {
+      var $thisTab = $(this);
+      if (!$thisTab.hasClass('title-tab-active')) {
+        var lastTabTarget = $('#title-tabs .title-tab-active').removeClass('title-tab-active').attr('data-target');
+        $('#' + lastTabTarget).toggle();
+
+        $thisTab.addClass('title-tab-active');
+        var $tabTarget = $(this).attr('data-target');
+        $('#' + $tabTarget).toggle();
+      }
+    });
+
+    // Append highlight fragment hash to sign in link for highlighting
+    if (window.location.hash.indexOf('#:-:text') > -1) {
+      // encode the hash symbol to prevent it from being used as a location hash by groot-fe
+      var highlightFragment = window.location.hash.replace('#:-:text', '%23:-:text');
+      $('#chapter-sign-in').attr('href', $('#chapter-sign-in').attr('href') + highlightFragment);
+    }
+
+    //Trigger GA events for related products
+    $('#recommendations .recommendations-item').each(function(i) {
+      $(this).on('click', function(e) {
+        var cardTitle = $(this).find('.recommendations-title').text().toLowerCase();
+        var productType = $(this).find('.recommendations-format').text().toLowerCase();
+        var contentID = $(this).attr('data-id');
+        var eventLbl = String(i);
+
+        dataLayer.push({
+          'product.title': undefined,
+          'content.formatType': undefined,
+          'product.identifier': undefined,
+          'content.title': undefined,
+          'content.author': undefined,
+          'content.publisher': undefined,
+          'content.releaseDate': undefined,
+          'content.free': undefined,
+          'content.subdirectory': undefined,
+          'content.parentTopic': undefined,
+          'content.subTopic': undefined,
+          'event': 'eventTracker',
+          'eventCat': 'recommended titles',
+          'eventAct': 'card click',
+          'eventLbl': eventLbl,
+          'eventVal': 0, 
+          'nonInteraction': 0,
+          'cardTitle': cardTitle,
+          'product.type': productType,
+          'content.identifier': contentID,
+          'eventCallback': function() {
+            dataLayer.push({'cardTitle': undefined});
+          },
+          'eventTimeout' : 2000
+        });
+      });
+    });
+
+    //Trigger GA event for "Try Now" nav button
+    $('.menuList-tryNow > a').on('click', function() {
+      dataLayer.push({
+        'event': 'eventTracker',
+        'eventCat':'marketing',
+        'eventAct':'nav',
+        'eventLbl':'try now',
+        'eventVal':0, 
+        'nonInteraction': 0,
+      });
+    });
+
+    //Trigger GA event for "Sign In" nav button
+    $('.menuList-signIn > a').on('click', function() {
+      dataLayer.push({
+        'event': 'eventTracker',
+        'eventCat':'marketing',
+        'eventAct':'nav',
+        'eventLbl':'sign in',
+        'eventVal':0, 
+        'nonInteraction': 0,
+      });
+    });
+
+  });
+
+</script>
+
+
+
+<!-- MARC Intercept Support -->
+
+<script src="https://service.seamlessaccess.org/thiss.js"></script>
+
+<script src="/library/view/static/CACHE/js/output.a597394f6b61.js"></script>
+
+
+</body>
+</html>
